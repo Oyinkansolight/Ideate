@@ -1,3 +1,5 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
 	content: ["./src/**/*.{js,jsx,ts,tsx}"],
 	theme: {
@@ -16,6 +18,9 @@ module.exports = {
 					800: "#000000",
 					900: "#000000",
 				},
+			},
+			fontFamily: {
+				sans: ["Montserrat", ...defaultTheme.fontFamily.sans],
 			},
 		},
 	},
