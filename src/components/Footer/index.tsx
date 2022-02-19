@@ -50,12 +50,13 @@ const Footer = () => (
 					<div className='text-2xl font-semibold'>Our Services</div>
 
 					<ul className='mt-4 leading-10'>
-						<li>Marketing Strategy</li>
-						<li>Social marketing</li>
-						<li>Consultation</li>
-						<li>Product design</li>
-						<li>Brand awareness</li>
-						<li>Forecasting tools</li>
+						<li>Home</li>
+						<li>Startups</li>
+						<li>About Us</li>
+						<li>Funding</li>
+						<li>News</li>
+						<li>Corporates</li>
+						<li>Events</li>
 					</ul>
 				</div>
 
