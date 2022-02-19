@@ -182,6 +182,8 @@ const Home = () => {
 								<StaticImage
 									src='../images/card_four_one.png'
 									alt={undefined}
+									className="bg-contain"
+									width={500}
 								/>
 							}
 						/>

@@ -10,9 +10,7 @@ const Footer = () => (
 			</div>
 
 			<div className='text-chathams font-light'>
-				We offer you one of the best digital marketing and advertising
-				tools for startups in nigeria. we represent quality and
-				efficiency
+			THINK | CREATE | INNOVATE
 			</div>
 
 			<div className='flex flex-row gap-x-6'>
