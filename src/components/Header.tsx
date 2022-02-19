@@ -1,9 +1,12 @@
+import { StaticImage } from 'gatsby-plugin-image';
 import React from 'react'
 import BasicButton from './Buttons/Basic'
 
 const Header = () => (
     <div className='w-full px-20 flex flex-row justify-between h-24'>
-        <div className='my-auto'>Logo</div>
+        <div className='my-auto'>
+            <StaticImage src='../images/ideate.png' alt='Text Logo' />
+        </div>
 
         <div className='flex flex-row gap-x-16 my-auto'>
             <div className='hover:underline decoration-chathams underline-offset-[1rem] cursor-pointer'>Home</div>

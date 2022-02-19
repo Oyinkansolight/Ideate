@@ -27,7 +27,7 @@ const Home = () => {
 				<div className='bg-chathams my-auto mr-6 ml-10 h-px w-28'></div>
 
 				<div className='text-chathams my-auto w-2/3 text-xl font-semibold'>
-					Benefits You Get When Using Our Services
+					Our Dream
 				</div>
 
 				<div className='text-md mr-28 w-2/4 text-justify text-gray-500'>
@@ -43,26 +43,40 @@ const Home = () => {
 				<div className='mx-auto grid grid-cols-3 gap-x-20'>
 					<div>
 						<Card_One
-							// logo={<Card_One_Svg />}
-							title='Brand Awareness'
-							description="Making Brands memorable and recognizable to it's target audience by providing context around the market that you operate."
-							logo={undefined}
+							logo={
+								<StaticImage
+									src='../images/Vector.png'
+									alt='icon 1'
+								/>
+							}
+							title='Startups'
+							description='We find the promising Startups to accelerate at  pre-revenue and post revenue stage of their business.'
 						/>
 					</div>
 
 					<div>
 						<Card_One
-							title='Accelerate To Market Fit'
-							description='Explore our different types of digital marketing tools that connect brands with potential customers.'
-							logo={undefined}
+							title='Corporates'
+							description='We have partnered with organizations globally to achieve our long-term dreams and give founders and startups all the tools they need to succeed in their venture.'
+							logo={
+								<StaticImage
+									src='../images/Vector-1.png'
+									alt='icon 2'
+								/>
+							}
 						/>
 					</div>
 
 					<div>
 						<Card_One
-							title='Product Strategy'
-							description='We define what you want to achieve, and guide large teams of work that will help you achieve your goals.'
-							logo={undefined}
+							title='Investors'
+							description='We attract credible angel and other institutional investors who offer more than just money to our  portfolio of entrepreneurs.'
+							logo={
+								<StaticImage
+									src='../images/Vector-2.png'
+									alt='icon 3'
+								/>
+							}
 						/>
 					</div>
 				</div>
@@ -93,10 +107,10 @@ const Home = () => {
 				</div>
 
 				<div className='text-center font-light capitalize'>
-					Success stories from Clients
+					What Founders are Saying About Us
 				</div>
 
-				<div className='my-6 grid grid-cols-3 gap-x-10 px-20'>
+				<div className='my-6 grid grid-cols-3 gap-x-10 px-20 place-items-center'>
 					<div>
 						<Testimonial
 							text={
@@ -125,32 +139,48 @@ const Home = () => {
 								"Choosing IdeateZone was the best decision i made for my startup. in 1 month i was able to convert 50% active users on our platform."
 							}
 							image={undefined}
-							name={"hULT RILAY"}
-							organization={"Game squad"}
+							name={"RICHMOND OGIGAI"}
+							organization={"Devcenter.Africa"}
 						/>
 					</div>
 				</div>
 			</div>
 
-			<div className='flex flex-col w-full px-20 my-20'>
+			<div className='my-20 flex w-full flex-col px-20'>
 				<div className='flex flex-row gap-x-6'>
-					<div className='bg-chathams h-px w-40 my-auto'></div>
+					<div className='bg-chathams my-auto h-px w-40'></div>
 					<div className='text-chathams text-xl font-semibold'>
 						See Our Latest Posts
 					</div>
 				</div>
 
-				<div className="my-10 grid grid-cols-2 place-items-center">
+				<div className='my-10 grid grid-cols-2 place-items-center'>
 					<div>
-						<Card_Four title={"How Zodak generated $10 Million from NFT"} author={"IdeateZone"} date={"December 4, 2021"} image={
-								<StaticImage src="../images/card_four_one.png" alt={undefined} />
-						} />
+						<Card_Four
+							title={"Ideate Zone Invest $100,000 to TheStage Tech-Hub"}
+							author={"IdeateZone"}
+							date={"December 4, 2021"}
+							image={
+								<StaticImage
+									src='../images/card_four_one.png'
+									alt={undefined}
+								/>
+							}
+						/>
 					</div>
 
 					<div>
-						<Card_Four title={"How Zodak generated $10 Million from NFT"} author={"IdeateZone"} date={"December 4, 2021"} image={
-							<StaticImage src="../images/card_four_two.png" alt={undefined} />
-						} />
+						<Card_Four
+							title={"How Zodak generated $10 Million from NFT"}
+							author={"IdeateZone"}
+							date={"December 4, 2021"}
+							image={
+								<StaticImage
+									src='../images/card_four_two.png'
+									alt={undefined}
+								/>
+							}
+						/>
 					</div>
 				</div>
 			</div>

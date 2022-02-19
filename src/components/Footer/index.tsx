@@ -5,9 +5,11 @@ import React from "react";
 const Footer = () => (
 	<div className='grid h-[400px] w-full grid-cols-4'>
 		<div className='flex h-full flex-col place-content-center gap-y-6 bg-gray-300 px-20'>
-			<div>Logo</div>
+			<div>
+				<StaticImage src='../../images/logo.png' width={60} alt='Text Logo' />
+			</div>
 
-			<div className='text-chathams text-justify font-light'>
+			<div className='text-chathams font-light'>
 				We offer you one of the best digital marketing and advertising
 				tools for startups in nigeria. we represent quality and
 				efficiency
@@ -63,9 +65,10 @@ const Footer = () => (
 					</div>
 
 					<div className='w-3/4 text-justify font-light'>
-						IdeateZone is a leading digital marketing company for
-						startups both digital and non-digital products in lagos,
-						nigeria.
+						Ideate Zone is a leading venture capitalist firm helping
+						founders and startups accelerate their dream through
+						providing funding, mentorship and corporate
+						partnerships.
 					</div>
 
 					<div className='flex flex-row gap-x-2'>
