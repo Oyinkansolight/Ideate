@@ -87,7 +87,8 @@ const Home = () => {
 					<Card_Two
 						title_one='IdeateZone'
 						title_two='Approach'
-						description={`We understand the frustration of coming up short. ${"That’s"} why we settle for nothing less than above and beyond for your business growth. our strategic tools can help optimize your digital space to get the best results.`}
+						description={`We are an early stage investor, with a focus on Pre-Seed and Seed Rounds.
+						We enjoy meeting founders who are ambitious, with grit and who are developing market-fit products to unsolved problems in Africa.`}
 					/>
 				</div>
 			</div>
@@ -95,8 +96,8 @@ const Home = () => {
 			<div className='flex w-full pb-20'>
 				<div className='mx-auto'>
 					<Card_Three
-						title='Engaging New Audience'
-						description='The key to building brand awareness is creating content and experiences that engage new audiences. IdeateZone combines real search, social and sales information to reach audience.'
+						title='Sectors We Engage'
+						description='We seek to help founders create an unfair advantage by connecting them to our vast industry network and helping them with market access. We also bring the mobility founder community together on a regular basis to help foster relationships between founders.'
 					/>
 				</div>
 			</div>
@@ -110,13 +111,18 @@ const Home = () => {
 					What Founders are Saying About Us
 				</div>
 
-				<div className='my-6 grid grid-cols-3 gap-x-10 px-20 place-items-center'>
+				<div className='my-6 grid grid-cols-3 place-items-center gap-x-10 px-20'>
 					<div>
 						<Testimonial
 							text={
 								"Choosing IdeateZone was the best decision i made for my startup. in 1 month i was able to convert 50% active users on our platform."
 							}
-							image={undefined}
+							image={
+								<StaticImage
+									src='../images/user1.png'
+									alt='user 1'
+								/>
+							}
 							name={"Chika Ike"}
 							organization={"uli’.Org"}
 						/>
@@ -127,7 +133,12 @@ const Home = () => {
 							text={
 								"Choosing IdeateZone was the best decision i made for my startup. in 1 month i was able to convert 50% active users on our platform."
 							}
-							image={undefined}
+							image={
+								<StaticImage
+									src='../images/user2.png'
+									alt='user 1'
+								/>
+							}
 							name={"Palmer Smith"}
 							organization={"Cerre.ng"}
 						/>
@@ -136,9 +147,14 @@ const Home = () => {
 					<div>
 						<Testimonial
 							text={
-								"Choosing IdeateZone was the best decision i made for my startup. in 1 month i was able to convert 50% active users on our platform."
+								"IDEATE Zone has helped us to accelerate our bold ambitions and give us a platform to scale our business globally. Great Mentorship"
 							}
-							image={undefined}
+							image={
+								<StaticImage
+									src='../images/user3.jpg'
+									alt='user 1'
+								/>
+							}
 							name={"RICHMOND OGIGAI"}
 							organization={"Devcenter.Africa"}
 						/>
@@ -157,7 +173,9 @@ const Home = () => {
 				<div className='my-10 grid grid-cols-2 place-items-center'>
 					<div>
 						<Card_Four
-							title={"Ideate Zone Invest $100,000 to TheStage Tech-Hub"}
+							title={
+								"Ideate Zone Invest $100,000 to TheStage Tech-Hub"
+							}
 							author={"IdeateZone"}
 							date={"December 4, 2021"}
 							image={

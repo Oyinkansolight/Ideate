@@ -6,10 +6,10 @@ const HomeBanner = () => (
 	<div className='flex h-[500px] w-full flex-row justify-between px-20'>
 		<div className='my-auto flex flex-col gap-y-6'>
 			<div className='text-chathams flex flex-col gap-y-2 text-5xl font-semibold'>
-				<div>Think!</div>
-				<div>Create!!</div>
+				<div>Think Innovation,</div>
+				<div>Create {"&"} Build Startups.</div>
 
-				<div>Ideate!!!</div>
+				<div>Ideate.</div>
 			</div>
 
 			<div>
@@ -35,7 +35,7 @@ const HomeBanner = () => (
 		</div>
 
 		<div>
-			<StaticImage src='../../images/banner1.jpg' alt='Home Banner 1' />
+			<StaticImage src='../../images/banner1.jpg' alt='Home Banner 1' width={600} />
 		</div>
 	</div>
 );

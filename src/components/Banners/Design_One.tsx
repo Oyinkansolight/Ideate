@@ -8,7 +8,7 @@ const Design_One = () => (
 				<div className='bg-chathams -mt-32 h-20 w-1'></div>
 
 				<div className='-mt-32'>
-					<p className='text-chathams text-justify font-semibold capitalize'>
+					<p className='text-chathams text-justify capitalize'>
 						At Ideate Zone We Partner. Support, Fund, Scale and
 						Power Africa's Best Founders and Start-Ups. Our Passion
 						Is To See That Early-Stage Start-Ups Achieve Their Bold
