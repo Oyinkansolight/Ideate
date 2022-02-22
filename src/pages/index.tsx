@@ -23,14 +23,16 @@ const Home = () => {
 				<Design_One />
 			</div>
 
-			<div className='flex flex-row py-24 px-20'>
-				<div className='bg-chathams my-auto mr-6 ml-10 h-px w-28'></div>
+			<div className='flex flex-col py-24 px-20 text-center'>
+				<div className='flex flex-row gap-x-6 '>
+					<div className='bg-chathams my-auto mr-6 ml-10 h-px w-28'></div>
 
-				<div className='text-chathams my-auto w-2/3 text-xl font-semibold'>
-					Our Dream
+					<div className='text-chathams my-auto text-xl font-semibold ml-[32rem]'>
+						Our Dream
+					</div>
 				</div>
 
-				<div className='text-md mr-28 w-2/4 text-justify text-gray-500'>
+				<div className='text-md mx-auto mt-4 w-2/4 text-center text-gray-500'>
 					Our ultimate goal is to exceed the demand and expectations
 					of our clients. We offer result proven solutions for all the
 					challenges faced by startups. We’ve over 200 success stories
@@ -164,7 +166,7 @@ const Home = () => {
 
 			<div className='my-20 flex w-full flex-col px-20'>
 				<div className='flex flex-row gap-x-6'>
-					<div className='bg-chathams my-auto h-px w-40'></div>
+					<div className='bg-chathams my-auto h-px w-[8.5rem]'></div>
 					<div className='text-chathams text-xl font-semibold'>
 						See Our Latest Posts
 					</div>
@@ -182,7 +184,7 @@ const Home = () => {
 								<StaticImage
 									src='../images/card_four_one.png'
 									alt={undefined}
-									className="bg-contain"
+									className='bg-contain'
 									width={500}
 								/>
 							}

@@ -8,7 +8,7 @@ interface Props {
 }
 const Testimonial = (props: Props) => {
 	return (
-		<div className='flex flex-col gap-y-20'>
+		<div className='flex flex-col gap-y-10'>
 			<div className='bg-[#DBE9F4] static z-10 h-[250px] w-[400px]'>
 				<div className="my-12 text-justify px-20">{props.text}</div>
 

@@ -18,13 +18,13 @@ const HomeBanner = () => (
 
 			<div className='mt-16 flex flex-row gap-x-36'>
 				<div className='flex flex-col'>
-					<div className='text-chathams text-center text-3xl font-semibold'>
+					<div className='text-chathams text-center text-5xl font-semibold'>
 						80+
 					</div>
 					<div className='text-sm font-light'>Startups Funded</div>
 				</div>
 				<div className='flex flex-col'>
-					<div className='text-chathams text-center text-3xl font-semibold'>
+					<div className='text-chathams text-center text-5xl font-semibold'>
 						10
 					</div>
 					<div className='text-sm font-light'>

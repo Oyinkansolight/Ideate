@@ -9,7 +9,7 @@ const Footer = () => (
 				<StaticImage src='../../images/logo.png' width={60} alt='Text Logo' />
 			</div>
 
-			<div className='text-chathams font-light'>
+			<div className='text-chathams font-light text-md'>
 			THINK | CREATE | INNOVATE
 			</div>
 
@@ -43,7 +43,7 @@ const Footer = () => (
 		</div>
 
 		<div className='bg-chathams col-span-3 h-full px-20 py-20 text-gray-200'>
-			<div className='flex flex-row justify-between gap-x-20'>
+			<div className='flex flex-row justify-evenly gap-x-20'>
 				<div className='flex flex-col'>
 					<div className='text-2xl font-semibold'>Our Services</div>
 
