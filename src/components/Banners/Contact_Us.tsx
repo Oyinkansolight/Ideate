@@ -4,12 +4,12 @@ import { BasicButton } from "../Buttons";
 
 const Contact_Us = () => {
 	return (
-		<div className='bg-chathams grid h-[500px] w-full grid-cols-3 text-white'>
+		<div className='bg-chathams grid h-[500px] w-full grid-cols-3 text-white overflow-hidden'>
 			<div className='from-chathams-300 via-chathams-400 to-chathams relative col-span-2 h-full w-full bg-gradient-to-r'>
 				<StaticImage
 					src='../../images/contact_us.png'
 					alt=''
-					className='absolute left-0 h-full w-full opacity-10'
+					className='absolute left-0 h-full my-auto w-full opacity-10'
 				/>
 
 				<div className='my-48 -ml-40 flex w-full flex-row justify-center gap-x-4'>
