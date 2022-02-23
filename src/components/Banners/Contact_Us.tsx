@@ -10,6 +10,7 @@ const Contact_Us = () => {
 					src='../../images/contact_us.png'
 					alt=''
 					className='absolute left-0 h-full my-auto w-full opacity-10'
+                    height={50}
 				/>
 
 				<div className='my-48 -ml-40 flex w-full flex-row justify-center gap-x-4'>
