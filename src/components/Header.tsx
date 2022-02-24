@@ -4,7 +4,8 @@ import React from 'react'
 import BasicButton from './Buttons/Basic'
 
 const Header = () => (
-    <div className='w-full px-20 flex flex-row justify-between h-24'>
+    <>
+    <div className='hidden md:flex w-full px-20 flex-row justify-between h-24'>
         <div className='my-auto'>
             <StaticImage src='../images/ideate.png' alt='Text Logo' />
         </div>
@@ -27,6 +28,8 @@ const Header = () => (
             <BasicButton text="Submit Pitch Deck" type='light' />
         </div>
     </div>
+
+    </>
 )
 
 
