@@ -9,6 +9,10 @@ import {
 	Slide,
 	ButtonBack,
 	ButtonNext,
+	DotGroup,
+	ButtonFirst,
+	ButtonLast,
+	Dot,
 } from "pure-react-carousel";
 import { AboutSliderOne } from "../components/Sliders";
 
@@ -184,12 +188,20 @@ const About = () => (
 						<AboutSliderOne />
 					</Slide>
 					<Slide index={1}>
-						<div>Slide 2 Coming Soon....</div>
+						<AboutSliderOne />
 					</Slide>
 				</Slider>
 
-				<ButtonBack>Back</ButtonBack>
-				<ButtonNext>Next</ButtonNext>
+				{/* <ButtonFirst>First</ButtonFirst>
+				<ButtonLast>Last</ButtonLast> */}
+
+{/* 
+				<Dot slide={0} />
+				<Dot slide={1} /> */}
+				{/* <DotGroup /> */}
+
+				{/* <ButtonBack>Back</ButtonBack>
+				<ButtonNext>Next</ButtonNext> */}
 			</CarouselProvider>
 		</div>
 	</Layout>

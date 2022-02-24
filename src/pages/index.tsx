@@ -23,16 +23,16 @@ const Home = () => {
 				<Design_One />
 			</div>
 
-			<div className='flex flex-col py-24 px-20 text-center'>
-				<div className='flex flex-row gap-x-6 '>
-					<div className='bg-chathams my-auto mr-6 ml-10 h-px w-28'></div>
+			<div className='flex flex-col py-24 px-10 md:px-20 text-center'>
+				<div className='flex flex-row md:gap-x-6 mx-auto'>
+					<div className='bg-chathams my-auto mr-6 md:ml-10 h-px w-20 md:w-28 -ml-20'></div>
 
-					<div className='text-chathams my-auto text-xl font-semibold ml-[32rem]'>
+					<div className='text-chathams my-auto text-xl font-semibold md:ml-[32rem]'>
 						Our Dream
 					</div>
 				</div>
 
-				<div className='text-md mx-auto mt-4 w-2/4 text-center text-gray-500'>
+				<div className='text-md mx-auto mt-4 md:w-2/4 text-center text-gray-500'>
 					Our ultimate goal is to exceed the demand and expectations
 					of our clients. We offer result proven solutions for all the
 					challenges faced by startups. We’ve over 200 success stories
@@ -41,8 +41,8 @@ const Home = () => {
 				</div>
 			</div>
 
-			<div className='flex w-full'>
-				<div className='mx-auto grid grid-cols-3 gap-x-20'>
+			<div className='flex w-full px-20'>
+				<div className='mx-auto grid grid-cols-1 gap-y-6 md:grid-cols-3 gap-x-20'>
 					<div>
 						<Card_One
 							logo={
@@ -113,7 +113,7 @@ const Home = () => {
 					What Founders are Saying About Us
 				</div>
 
-				<div className='my-6 grid grid-cols-3 place-items-center gap-x-10 px-20'>
+				<div className='my-6 grid md:grid-cols-3 grid-cols-1 place-items-center gap-x-10 px-20'>
 					<div>
 						<Testimonial
 							text={
@@ -172,7 +172,7 @@ const Home = () => {
 					</div>
 				</div>
 
-				<div className='my-10 grid grid-cols-2 place-items-center'>
+				<div className='my-10 grid grid-cols-1 md:grid-cols-3 place-items-center'>
 					<div>
 						<Card_Four
 							title={

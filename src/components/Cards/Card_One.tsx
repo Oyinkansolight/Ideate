@@ -7,8 +7,8 @@ interface Props {
 }
 
 const Card_One = (props: Props) => (
-    <div className='static bg-chathams h-[360px] w-[390px]'>
-        <span className='bg-[#F6F8F9] h-[350px] w-[400px] z-10 absolute shadow-md'>
+    <div className='static bg-chathams h-[360px] w-[300px] md:w-[390px]'>
+        <span className='bg-[#F6F8F9] h-[350px] w-[310px] md:w-[400px] z-10 absolute shadow-md'>
             <div className='flex flex-col px-6 py-24'>
                 <div className='mb-4'>{props.logo}</div>
 

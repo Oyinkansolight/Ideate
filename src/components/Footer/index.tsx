@@ -1,16 +1,21 @@
 import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
+import { BasicButton } from "../Buttons";
 
 const Footer = () => (
-	<div className='grid h-[400px] w-full grid-cols-4'>
-		<div className='flex h-full flex-col place-content-center gap-y-6 bg-gray-300 px-20'>
+	<div className='grid w-full grid-rows-2 md:h-[500px] md:grid-cols-4'>
+		<div className='py-10 md:py-0 order-last row-span-1 flex h-full flex-col place-content-center gap-y-6 bg-gray-300 px-20 md:order-first md:h-[500px]'>
 			<div>
-				<StaticImage src='../../images/logo.png' width={60} alt='Text Logo' />
+				<StaticImage
+					src='../../images/logo.png'
+					width={60}
+					alt='Text Logo'
+				/>
 			</div>
 
-			<div className='text-chathams font-light text-md'>
-			THINK | CREATE | INNOVATE
+			<div className='text-chathams text-md font-light'>
+				THINK | CREATE | INNOVATE
 			</div>
 
 			<div className='flex flex-row gap-x-6'>
@@ -40,10 +45,22 @@ const Footer = () => (
 					</div>
 				</Link>
 			</div>
+
+			<div className='text-chathams flex flex-col gap-y-2 mt-6'>
+				<div className='text-xl'>Submit Your Pitch Deck</div>
+
+				<div className='font-light'>
+					Submit Pitch deck to grow and scale with us
+				</div>
+
+				<div>
+					<BasicButton text='Submit Pitch Deck' />
+				</div>
+			</div>
 		</div>
 
-		<div className='bg-chathams col-span-3 h-full px-20 py-20 text-gray-200'>
-			<div className='flex flex-row justify-evenly gap-x-20'>
+		<div className='bg-chathams row-span-1 h-full px-6 md:px-20 py-20 text-gray-200 md:col-span-3 md:h-[500px]'>
+			<div className='flex flex-row justify-evenly gap-x-6 md:gap-x-20'>
 				<div className='flex flex-col'>
 					<div className='text-2xl font-semibold'>Our Services</div>
 
