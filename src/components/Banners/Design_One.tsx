@@ -3,7 +3,7 @@ import React from "react";
 
 const Design_One = () => (
 	<div className='relative flex h-[360px] md:h-[600px] w-full overflow-hidden bg-gray-100'>
-		<div className='center absolute bottom-0 mx-auto flex w-full flex-col'>
+		<div className='items-center absolute bottom-0 mx-auto flex w-full flex-col'>
 			<div className='mx-auto flex w-4/5 md:w-2/5 flex-row gap-x-4'>
 				<div className='bg-chathams -mt-32 h-20 w-1'></div>
 
