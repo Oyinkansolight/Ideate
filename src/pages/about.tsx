@@ -18,20 +18,24 @@ import { AboutSliderOne } from "../components/Sliders";
 
 const About = () => (
 	<Layout>
-		<Design_Two />
+		<div className='flex'>
+			<Design_Two />
+		</div>
 
-		<div className='my-24 flex w-full'>
+		<div className='mt-[28rem] flex w-full'>
 			<div className='mx-auto'>
 				<Card_Five />
 			</div>
 		</div>
 
-		<div className='mb-10 flex flex-col justify-between px-20'>
-			<div className='flex flex-row gap-10'>
-				<div className='bg-chathams my-auto h-px w-36'></div>
+		<div className='mb-10 mt-14 flex flex-col px-20'>
+			<div className='flex w-full'>
+				<div className='mx-auto flex flex-row gap-x-6'>
+					<div className='bg-chathams my-auto h-px w-20'></div>
 
-				<div className='text-chathams my-auto ml-[32rem] font-semibold'>
-					What We Stand For
+					<div className='text-chathams my-auto font-semibold'>
+						What We Stand For
+					</div>
 				</div>
 			</div>
 
@@ -195,7 +199,7 @@ const About = () => (
 				{/* <ButtonFirst>First</ButtonFirst>
 				<ButtonLast>Last</ButtonLast> */}
 
-{/* 
+				{/* 
 				<Dot slide={0} />
 				<Dot slide={1} /> */}
 				{/* <DotGroup /> */}

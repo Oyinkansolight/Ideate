@@ -26,15 +26,16 @@ const Portfolio = () => {
 				</div>
 
 				<div className='mx-auto w-1/3 font-light text-gray-500'>
-					80% of our clients doubled their revenue in the first 3
-					months, but don’t hear it from us; see what we have done
+					We are proud of some of the portfolio companies we have
+					funded, mentored and accelerated both local and global
+					across sectors doing amazing things.
 				</div>
 
 				<div className='mt-10 flex flex-row justify-center gap-x-10'>
 					<div>
 						<BasicButton
 							onPress={() => handlePortfolio(0)}
-							text='All Works'
+							text='All Portfolio'
 							type={portfolio === 0 ? "" : "light"}
 						/>
 					</div>
@@ -42,7 +43,7 @@ const Portfolio = () => {
 					<div>
 						<BasicButton
 							onPress={() => handlePortfolio(1)}
-							text='Branding'
+							text='Fintech'
 							type={portfolio === 1 ? "" : "light"}
 						/>
 					</div>
@@ -50,7 +51,7 @@ const Portfolio = () => {
 					<div>
 						<BasicButton
 							onPress={() => handlePortfolio(2)}
-							text='Startup'
+							text='Healthcare'
 							type={portfolio === 2 ? "" : "light"}
 						/>
 					</div>
@@ -58,7 +59,7 @@ const Portfolio = () => {
 					<div>
 						<BasicButton
 							onPress={() => handlePortfolio(3)}
-							text='Product Strategy'
+							text='Logistics'
 							type={portfolio === 3 ? "" : "light"}
 						/>
 					</div>
@@ -66,10 +67,27 @@ const Portfolio = () => {
 					<div>
 						<BasicButton
 							onPress={() => handlePortfolio(4)}
-							text='Digital Marketing'
+							text='SAAS/Enterprise'
 							type={portfolio === 4 ? "" : "light"}
 						/>
 					</div>
+
+					<div>
+						<BasicButton
+							onPress={() => handlePortfolio(5)}
+							text='Digital Marketing'
+							type={portfolio === 5 ? "" : "light"}
+						/>
+					</div>
+
+					<div>
+						<BasicButton
+							onPress={() => handlePortfolio(6)}
+							text='Agrotech'
+							type={portfolio === 6 ? "" : "light"}
+						/>
+					</div>
+					
 				</div>
 			</div>
 

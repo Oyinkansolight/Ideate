@@ -25,9 +25,9 @@ const Home = () => {
 
 			<div className='flex flex-col py-24 px-10 md:px-20 text-center'>
 				<div className='flex flex-row md:gap-x-6 mx-auto'>
-					<div className='bg-chathams my-auto mr-6 md:ml-10 h-px w-20 md:w-28 -ml-20'></div>
+					<div className='bg-chathams my-auto mr-6  h-px w-20 md:w-28 -ml-20'></div>
 
-					<div className='text-chathams my-auto text-xl font-semibold md:ml-[32rem]'>
+					<div className='text-chathams my-auto text-xl font-semibold'>
 						Our Dream
 					</div>
 				</div>
