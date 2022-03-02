@@ -3,18 +3,8 @@ import React from "react";
 import { Contact_Us, Design_Two } from "../components/Banners";
 import { Card_Five, Flip_Card, TeamCard } from "../components/Cards";
 import Layout from "../components/Layout";
-import {
-	CarouselProvider,
-	Slider,
-	Slide,
-	ButtonBack,
-	ButtonNext,
-	DotGroup,
-	ButtonFirst,
-	ButtonLast,
-	Dot,
-} from "pure-react-carousel";
 import { AboutSliderOne } from "../components/Sliders";
+import "tw-elements";
 
 const About = () => (
 	<Layout>
@@ -182,31 +172,66 @@ const About = () => (
 		</div>
 
 		<div className='my-24 w-full'>
-			<CarouselProvider
-				naturalSlideWidth={100}
-				naturalSlideHeight={35}
-				totalSlides={2}
+			<div
+				id='carouselExampleCrossfade'
+				className='carousel slide carousel-fade relative'
+				data-bs-ride='carousel'
 			>
-				<Slider>
-					<Slide index={0}>
+				<div className='carousel-indicators absolute right-0 bottom-0 left-0 mb-4 flex justify-center p-0'>
+					<button
+						type='button'
+						data-bs-target='#carouselExampleCrossfade'
+						data-bs-slide-to='0'
+						className='active'
+						aria-current='true'
+						aria-label='Slide 1'
+					></button>
+					<button
+						type='button'
+						data-bs-target='#carouselExampleCrossfade'
+						data-bs-slide-to='1'
+						aria-label='Slide 2'
+					></button>
+					{/* <button
+						type='button'
+						data-bs-target='#carouselExampleCrossfade'
+						data-bs-slide-to='2'
+						aria-label='Slide 3'
+					></button> */}
+				</div>
+				<div className='carousel-inner relative w-full overflow-hidden'>
+					<div className='carousel-item active float-left w-full'>
 						<AboutSliderOne />
-					</Slide>
-					<Slide index={1}>
+					</div>
+					<div className='carousel-item float-left w-full'>
 						<AboutSliderOne />
-					</Slide>
-				</Slider>
-
-				{/* <ButtonFirst>First</ButtonFirst>
-				<ButtonLast>Last</ButtonLast> */}
-
-				{/* 
-				<Dot slide={0} />
-				<Dot slide={1} /> */}
-				{/* <DotGroup /> */}
-
-				{/* <ButtonBack>Back</ButtonBack>
-				<ButtonNext>Next</ButtonNext> */}
-			</CarouselProvider>
+					</div>
+				</div>
+				<button
+					className='carousel-control-prev absolute top-0 bottom-0 left-0 flex items-center justify-center border-0 p-0 text-center hover:no-underline hover:outline-none focus:no-underline focus:outline-none'
+					type='button'
+					data-bs-target='#carouselExampleCrossfade'
+					data-bs-slide='prev'
+				>
+					<span
+						className='carousel-control-prev-icon inline-block bg-no-repeat'
+						aria-hidden='true'
+					></span>
+					<span className='visually-hidden'>Previous</span>
+				</button>
+				<button
+					className='carousel-control-next absolute top-0 bottom-0 right-0 flex items-center justify-center border-0 p-0 text-center hover:no-underline hover:outline-none focus:no-underline focus:outline-none'
+					type='button'
+					data-bs-target='#carouselExampleCrossfade'
+					data-bs-slide='next'
+				>
+					<span
+						className='carousel-control-next-icon inline-block bg-no-repeat'
+						aria-hidden='true'
+					></span>
+					<span className='visually-hidden'>Next</span>
+				</button>
+			</div>
 		</div>
 	</Layout>
 );
