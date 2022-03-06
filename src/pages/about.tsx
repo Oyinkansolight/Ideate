@@ -4,7 +4,6 @@ import { Contact_Us, Design_Two } from "../components/Banners";
 import { Card_Five, Flip_Card, TeamCard } from "../components/Cards";
 import Layout from "../components/Layout";
 import { AboutSliderOne } from "../components/Sliders";
-import "tw-elements";
 
 const About = () => (
 	<Layout>
