@@ -6,7 +6,7 @@ const AboutSliderOne = () => (
 		<div className='flex h-full flex-col bg-[#DBE9F4] p-20 gap-y-10'>
 			<div className='flex flex-row gap-x-6'>
 				<div className='bg-chathams my-auto h-px w-40'></div>
-				<div className="font-semibold text-2xl text-chathams">Featured Startup</div>
+				<div className="font-semibold text-2xl text-chathams">Featured</div>
 			</div>
 
 			<div className="md:ml-44">Logo</div>

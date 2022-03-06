@@ -31,7 +31,7 @@ const Portfolio = () => {
 					across sectors doing amazing things.
 				</div>
 
-				<div className='mt-10 flex flex-row justify-center gap-x-10'>
+				{/* <div className='mt-10 flex flex-row justify-center gap-x-10'>
 					<div>
 						<BasicButton
 							onPress={() => handlePortfolio(0)}
@@ -88,10 +88,10 @@ const Portfolio = () => {
 						/>
 					</div>
 					
-				</div>
+				</div> */}
 			</div>
 
-			<div className='my-20 grid w-full grid-cols-4 place-items-center gap-y-8 gap-x-1 px-20'>
+			{/* <div className='my-20 grid w-full grid-cols-4 place-items-center gap-y-8 gap-x-1 px-20'>
 				{portfolio === 0 && (
 					<>
 						<div>
@@ -381,11 +381,11 @@ const Portfolio = () => {
 						</div>
 					</>
 				)}
-			</div>
+			</div> */}
 
-			<div className='mt-40'>
+			<div className='my-40'>
 				<div className=' mx-auto flex w-full px-20'>
-					<div className='flex flex-row gap-x-24'>
+					<div className='flex flex-row gap-x-24 mx-auto'>
 						<div>
 							<StaticImage
 								src='../images/port_found.png'
@@ -412,11 +412,7 @@ const Portfolio = () => {
 				</div>
 			</div>
 
-			<div className='my-40 w-full'>
-				<Contact_Us />
-			</div>
-
-			<div className='mb-40 flex w-full flex-col'>
+			{/* <div className='mb-40 flex w-full flex-col'>
 				<div className='text-chathams mx-auto text-4xl capitalize'>
 					Frequently asked questions
 				</div>
@@ -424,7 +420,7 @@ const Portfolio = () => {
 				<div className='mx-auto flex w-full justify-center'>
 					<Faq />
 				</div>
-			</div>
+			</div> */}
 		</Layout>
 	);
 };

@@ -6,6 +6,7 @@ import {
 	Card_One,
 	Card_Three,
 	Card_Two,
+	TeamCard,
 	Testimonial,
 } from "../components/Cards";
 import { StaticImage } from "gatsby-plugin-image";
@@ -23,16 +24,16 @@ const Home = () => {
 				<Design_One />
 			</div>
 
-			<div className='flex flex-col py-24 px-10 md:px-20 text-center'>
-				<div className='flex flex-row md:gap-x-6 mx-auto'>
-					<div className='bg-chathams my-auto mr-6  h-px w-20 md:w-28 -ml-20'></div>
+			<div className='flex flex-row py-24 px-10 text-center md:px-20'>
+				<div className='mx-auto flex flex-row md:gap-x-6'>
+					<div className='bg-chathams my-auto mr-6  -ml-20 h-px w-20 md:w-28'></div>
 
 					<div className='text-chathams my-auto text-xl font-semibold'>
 						Our Dream
 					</div>
 				</div>
 
-				<div className='text-md mx-auto mt-4 md:w-2/4 text-center text-gray-500'>
+				<div className='text-md mx-auto mt-4 text-justify text-gray-500 md:w-2/4'>
 					Our ultimate goal is to exceed the demand and expectations
 					of our clients. We offer result proven solutions for all the
 					challenges faced by startups. We’ve over 200 success stories
@@ -42,7 +43,7 @@ const Home = () => {
 			</div>
 
 			<div className='flex w-full px-20'>
-				<div className='mx-auto grid grid-cols-1 gap-y-6 md:grid-cols-3 gap-x-20'>
+				<div className='mx-auto grid grid-cols-1 gap-y-6 gap-x-20 md:grid-cols-3'>
 					<div>
 						<Card_One
 							logo={
@@ -84,22 +85,79 @@ const Home = () => {
 				</div>
 			</div>
 
-			<div className='flex w-full py-32'>
-				<div className='mx-auto'>
-					<Card_Two
-						title_one='IdeateZone'
-						title_two='Approach'
-						description={`We are an early stage investor, with a focus on Pre-Seed and Seed Rounds.
-						We enjoy meeting founders who are ambitious, with grit and who are developing market-fit products to unsolved problems in Africa.`}
-					/>
-				</div>
-			</div>
-
-			<div className='flex w-full pb-20'>
+			{/* <div className='flex w-full pb-20'>
 				<div className='mx-auto'>
 					<Card_Three
 						title='Sectors We Engage'
 						description='We seek to help founders create an unfair advantage by connecting them to our vast industry network and helping them with market access. We also bring the mobility founder community together on a regular basis to help foster relationships between founders.'
+					/>
+				</div>
+			</div> */}
+
+			{/* TEAM SECTION */}
+			<div className='mt-24 flex flex-col px-20'>
+				<div className='relative w-full'>
+					<div className='bg-chathams absolute col-span-1 h-36 w-px'></div>
+
+					<div className='text-chathams text-center text-2xl font-semibold'>
+						The Ideate Zone Team
+					</div>
+				</div>
+
+				<div className='mx-auto my-20 flex w-2/3 flex-wrap justify-center gap-10'>
+					<TeamCard
+						name='Patrick Oke'
+						title='Founder'
+						image={
+							<StaticImage
+								src='../images/user_1.png'
+								alt={undefined}
+							/>
+						}
+					/>
+
+					<TeamCard
+						name='Ella Odun'
+						title='Managing Partner'
+						image={
+							<StaticImage
+								src='../images/user_2.png'
+								alt={undefined}
+							/>
+						}
+					/>
+
+					<TeamCard
+						name='John McClean'
+						title='Investor'
+						image={
+							<StaticImage
+								src='../images/user_3.png'
+								alt={undefined}
+							/>
+						}
+					/>
+
+					<TeamCard
+						name='Jennifer Mitch'
+						title='Head Of Legal'
+						image={
+							<StaticImage
+								src='../images/user_4.png'
+								alt={undefined}
+							/>
+						}
+					/>
+
+					<TeamCard
+						name='Milka Fred'
+						title='Chief Financial Officer'
+						image={
+							<StaticImage
+								src='../images/user_5.png'
+								alt={undefined}
+							/>
+						}
 					/>
 				</div>
 			</div>
@@ -113,7 +171,7 @@ const Home = () => {
 					What Founders are Saying About Us
 				</div>
 
-				<div className='my-6 grid md:grid-cols-3 grid-cols-1 place-items-center gap-x-10 px-20'>
+				<div className='my-6 grid grid-cols-1 place-items-center gap-x-10 px-20 md:grid-cols-3'>
 					<div>
 						<Testimonial
 							text={
@@ -172,7 +230,7 @@ const Home = () => {
 					</div>
 				</div>
 
-				<div className='my-10 grid grid-cols-1 md:grid-cols-3 place-items-center'>
+				<div className='my-10 grid grid-cols-1 place-items-center md:grid-cols-3'>
 					<div>
 						<Card_Four
 							title={
