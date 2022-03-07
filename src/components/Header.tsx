@@ -26,9 +26,9 @@ const Header = () => (
 			</div>
 
 			<div className='my-auto flex flex-row gap-x-6'>
-				<BasicButton text='Apply For Funding' />
+
 				<Link to='/pitch'>
-					<BasicButton text='Submit Pitch Deck' type='light' />
+					<BasicButton text='Submit Pitch Deck' />
 				</Link>
 			</div>
 		</div>

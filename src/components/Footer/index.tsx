@@ -31,7 +31,7 @@ const Footer = () => (
 					<Link to='https://instagram.com/ideate_zone'>
 						<div>
 							<StaticImage
-								src='../../images/mail.svg'
+								src='../../images/email.svg'
 								alt='Instagram'
 							/>
 						</div>

@@ -31,6 +31,66 @@ const Portfolio = () => {
 					across sectors doing amazing things.
 				</div>
 
+				<div className='mx-auto px-20 mt-6'>
+					<div className='bg-gray-100 px-10 h-[480px] w-[1200px] relative'>
+						<div className="h-[150px] w-[400px] z-0 bg-gray-200 mt-60 absolute left-0"></div>
+
+						<div className='flex flex-row gap-x-10'>
+							<div className='flex flex-col my-auto ml-24'>
+								<div className='text-3xl font-semibold text-left'>
+									Ascon
+								</div>
+								<div className='text-left'>Digital Solution</div>
+
+								<div className="text-justify mt-4 z-10 w-4/5 leading-6">
+									Ascon is a startup that promotes healthy
+									lifestyle for women, an AI powered tool for
+									women who spit during pregnancy. Women can
+									spit into the bottle, with the help of AI,
+									the bottle retains a fresh fragrance. Since
+									its inception in 2018, Uli’ has raised a
+									total of $51 million as a result of our
+									strategic customer .
+								</div>
+							</div>
+
+							<div>
+								<StaticImage src='../images/ascon.png' alt={""} width={1300} />
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div className='mx-auto px-20 mt-20'>
+					<div className='bg-gray-100 px-10 h-[480px] w-[1200px] relative'>
+						<div className="h-[150px] w-[400px] z-0 bg-gray-200 mt-60 absolute right-0"></div>
+
+						<div className='flex flex-row-reverse gap-x-10'>
+							<div className='flex flex-col my-auto ml-24'>
+								<div className='text-3xl font-semibold text-left'>
+									Ascon
+								</div>
+								<div className='text-left'>Digital Solution</div>
+
+								<div className="text-justify mt-4 z-10 w-4/5 leading-6">
+									Ascon is a startup that promotes healthy
+									lifestyle for women, an AI powered tool for
+									women who spit during pregnancy. Women can
+									spit into the bottle, with the help of AI,
+									the bottle retains a fresh fragrance. Since
+									its inception in 2018, Uli’ has raised a
+									total of $51 million as a result of our
+									strategic customer .
+								</div>
+							</div>
+
+							<div>
+								<StaticImage src='../images/ascon2.png' alt={""} width={1300} />
+							</div>
+						</div>
+					</div>
+				</div>
+
 				{/* <div className='mt-10 flex flex-row justify-center gap-x-10'>
 					<div>
 						<BasicButton
@@ -385,10 +445,10 @@ const Portfolio = () => {
 
 			<div className='my-40'>
 				<div className=' mx-auto flex w-full px-20'>
-					<div className='flex flex-row gap-x-24 mx-auto'>
+					<div className='mx-auto flex flex-row gap-x-24'>
 						<div>
 							<StaticImage
-								src='../images/port_found.png'
+								src='../images/ascon_bottom.png'
 								alt={"Card Image 3"}
 							/>
 						</div>
