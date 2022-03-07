@@ -253,10 +253,24 @@ const Home = () => {
 						<Card_Four
 							title={"How Zodak generated $10 Million from NFT"}
 							author={"IdeateZone"}
-							date={"December 4, 2021"}
+							date={"October 4, 2021"}
 							image={
 								<StaticImage
 									src='../images/card_four_two.png'
+									alt={undefined}
+								/>
+							}
+						/>
+					</div>
+
+					<div>
+						<Card_Four
+							title={"HighRev's Solana Integration."}
+							author={"IdeateZone"}
+							date={"February 4, 2022"}
+							image={
+								<StaticImage
+									src='../images/card_four_three.jpg'
 									alt={undefined}
 								/>
 							}

@@ -9,7 +9,7 @@ interface Props {
 }
 
 const Card_Four = (props: Props) => (
-    <div className='grid grid-flow-row grid-rows-3 bg-gray-100 w-[440px] px-10 md:px-0'>
+    <div className='grid grid-flow-row grid-rows-3 bg-gray-100 md:h-[320px] w-[440px] px-10 md:px-0'>
         <div className='row-span-2 h-[200px] overflow-hidden bg-contain'>
             {props.image}
         </div>
