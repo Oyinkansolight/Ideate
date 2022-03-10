@@ -1,3 +1,4 @@
+import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 import React, { useState } from "react";
 import { Contact_Us, PortfolioBanner } from "../components/Banners";
@@ -477,7 +478,9 @@ const Portfolio = () => {
 							</div>
 
 							<div className='mt-4'>
-								<BasicButton text={"Pitch Us"} />
+								<Link to='/pitch'>
+									<BasicButton text={"Pitch Us"} />
+								</Link>
 							</div>
 						</div>
 					</div>

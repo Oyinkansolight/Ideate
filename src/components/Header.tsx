@@ -7,7 +7,9 @@ const Header = () => (
 	<>
 		<div className='hidden h-24 w-full flex-row justify-between px-20 md:flex'>
 			<div className='my-auto'>
-				<StaticImage src='../images/ideate.png' alt='Text Logo' />
+				<Link to='/'>
+					<StaticImage src='../images/ideate.png' alt='Text Logo' />
+				</Link>
 			</div>
 
 			<div className='my-auto flex flex-row gap-x-16'>
@@ -26,7 +28,6 @@ const Header = () => (
 			</div>
 
 			<div className='my-auto flex flex-row gap-x-6'>
-
 				<Link to='/pitch'>
 					<BasicButton text='Submit Pitch Deck' />
 				</Link>
