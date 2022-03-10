@@ -3,8 +3,8 @@ import React from "react";
 import { BasicButton } from "../Buttons";
 
 const Design_Two = () => (
-	<div className='mx-auto flex h-[400px] w-full'>
-		<div className='relative h-[400px] w-full'>
+	<div className='mx-auto flex h-auto w-full'>
+		<div className='relative h-auto w-full'>
 			<div className='md:hidden'>
 				<StaticImage
 					src='../../images/banner_2.png'

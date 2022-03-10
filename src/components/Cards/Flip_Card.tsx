@@ -6,6 +6,7 @@ interface Props {
 	title: string;
 	description?: string;
 	image: any;
+	text?: string;
 }
 
 const Flip_Card = (props: Props) => {
@@ -23,22 +24,26 @@ const Flip_Card = (props: Props) => {
 				className='h-80 overflow-hidden bg-yellow-100'
 				onMouseMove={handleClick}
 			>
-				<div className="relative flex">
-					<div className="z-0 absolute">{props.image}</div>
+				<div className='relative flex'>
+					<div className='absolute z-0'>{props.image}</div>
 
-                    <div className="absolute z-10 bg-chathams h-80 w-full opacity-70"></div>
+					<div className='bg-chathams absolute z-10 h-80 w-full opacity-70'></div>
 
-					<div className='text-white absolute text-2xl z-20 mt-36 mx-48 font-semibold'>
-						{props.title}
+					<div className='h-80 w-full flex flex-col justify-around'>
+						<div className='z-20 text-2xl mx-auto font-semibold capitalize text-white'>
+							<div className=''>{props.title}</div>
+						</div>
 					</div>
 				</div>
 			</div>
 
 			{/* Back */}
 			<div
-				className='h-80 bg-chathams'
+				className='bg-chathams flex h-80 flex-col justify-around text-white'
 				onMouseLeave={handleClick}
-			></div>
+			>
+				<div className='px-10 text-lg font-semibold'>{props.text}</div>
+			</div>
 		</ReactCardFlip>
 	);
 };

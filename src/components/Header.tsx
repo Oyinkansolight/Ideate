@@ -14,9 +14,9 @@ const Header = () => (
 				<div className='decoration-chathams cursor-pointer underline-offset-[1rem] hover:underline'>
 					<Link to='/'>Home</Link>
 				</div>
-				<div className='decoration-chathams cursor-pointer underline-offset-[1rem] hover:underline'>
+				{/* <div className='decoration-chathams cursor-pointer underline-offset-[1rem] hover:underline'>
 					Startups
-				</div>
+				</div> */}
 				<div className='decoration-chathams cursor-pointer underline-offset-[1rem] hover:underline'>
 					<Link to='/portfolio'>Portfolio</Link>
 				</div>

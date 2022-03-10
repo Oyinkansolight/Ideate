@@ -3,6 +3,7 @@ import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
 import { BasicButton } from "../components/Buttons";
 import { Widget } from "@typeform/embed-react";
+import Header from "../components/Header";
 
 // const Pitch = () => {
 // 	return (
@@ -51,10 +52,17 @@ import { Widget } from "@typeform/embed-react";
 
 // export default Pitch;
 
-const MyComponent = () => {
+const Pitch = () => {
 	return (
-		<Widget id='hx7iL825' style={{ width: "100%", height: "100vh" }} className='my-form' />
+		<>
+			<Header />
+			<Widget
+				id='hx7iL825'
+				style={{ width: "100%", height: "100vh" }}
+				className='my-form'
+			/>
+		</>
 	);
 };
 
-export default MyComponent;
+export default Pitch;

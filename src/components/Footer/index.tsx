@@ -53,7 +53,9 @@ const Footer = () => (
 					<li>{"Terms & Conditions"}</li>
 					<li>Legal Notice</li>
 					<li>Privacy</li>
-					<li>FAQ</li>
+					<li>
+						<Link to="/faq">FAQ</Link>
+					</li>
 				</ul>
 			</div>
 

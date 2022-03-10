@@ -1,4 +1,5 @@
 import AboutSliderOne from "./AboutSliderOne";
+import AboutSliderTwo from "./AboutSliderTwo";
 
 
-export {AboutSliderOne}
+export {AboutSliderOne, AboutSliderTwo}

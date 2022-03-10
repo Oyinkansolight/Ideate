@@ -26,23 +26,25 @@ const Portfolio = () => {
 				</div>
 
 				<div className='mx-auto w-1/3 font-light text-gray-500'>
-					We are proud of some of the portfolio companies we have
-					funded, mentored and accelerated both local and global
-					across sectors doing amazing things.
+					We are blockchain and ICO experts, founders, and investor
+					networks. Helping startups worldwide to accelerate business
+					success in a completely new economy.
 				</div>
 
-				<div className='mx-auto px-20 mt-6'>
-					<div className='bg-gray-100 px-10 h-[480px] w-[1200px] relative'>
-						<div className="h-[150px] w-[400px] z-0 bg-gray-200 mt-60 absolute left-0"></div>
+				<div className='mx-auto mt-6 px-20'>
+					<div className='relative h-[480px] w-[1200px] bg-gray-100 px-10'>
+						<div className='absolute left-0 z-0 mt-60 h-[150px] w-[400px] bg-gray-200'></div>
 
 						<div className='flex flex-row gap-x-10'>
-							<div className='flex flex-col my-auto ml-24'>
-								<div className='text-3xl font-semibold text-left'>
+							<div className='my-auto ml-24 flex flex-col'>
+								<div className='text-left text-3xl font-semibold'>
 									Ascon
 								</div>
-								<div className='text-left'>Digital Solution</div>
+								<div className='text-left'>
+									Digital Solution
+								</div>
 
-								<div className="text-justify mt-4 z-10 w-4/5 leading-6">
+								<div className='z-10 mt-4 w-4/5 text-justify leading-6'>
 									Ascon is a startup that promotes healthy
 									lifestyle for women, an AI powered tool for
 									women who spit during pregnancy. Women can
@@ -55,24 +57,30 @@ const Portfolio = () => {
 							</div>
 
 							<div>
-								<StaticImage src='../images/ascon.png' alt={""} width={1300} />
+								<StaticImage
+									src='../images/ascon.png'
+									alt={""}
+									width={1300}
+								/>
 							</div>
 						</div>
 					</div>
 				</div>
 
-				<div className='mx-auto px-20 mt-20'>
-					<div className='bg-gray-100 px-10 h-[480px] w-[1200px] relative'>
-						<div className="h-[150px] w-[400px] z-0 bg-gray-200 mt-60 absolute right-0"></div>
+				<div className='mx-auto mt-20 px-20'>
+					<div className='relative h-[480px] w-[1200px] bg-gray-100 px-10'>
+						<div className='absolute right-0 z-0 mt-60 h-[150px] w-[400px] bg-gray-200'></div>
 
 						<div className='flex flex-row-reverse gap-x-10'>
-							<div className='flex flex-col my-auto ml-24'>
-								<div className='text-3xl font-semibold text-left'>
+							<div className='my-auto ml-24 flex flex-col'>
+								<div className='text-left text-3xl font-semibold'>
 									Ascon
 								</div>
-								<div className='text-left'>Digital Solution</div>
+								<div className='text-left'>
+									Digital Solution
+								</div>
 
-								<div className="text-justify mt-4 z-10 w-4/5 leading-6">
+								<div className='z-10 mt-4 w-4/5 text-justify leading-6'>
 									Ascon is a startup that promotes healthy
 									lifestyle for women, an AI powered tool for
 									women who spit during pregnancy. Women can
@@ -85,7 +93,11 @@ const Portfolio = () => {
 							</div>
 
 							<div>
-								<StaticImage src='../images/ascon2.png' alt={""} width={1300} />
+								<StaticImage
+									src='../images/ascon2.png'
+									alt={""}
+									width={1300}
+								/>
 							</div>
 						</div>
 					</div>
@@ -459,28 +471,18 @@ const Portfolio = () => {
 							</div>
 
 							<div className='text-justify'>
-								We help clients develop a digital strategy so
-								they know what they need to do and why they need
-								to do it.
+								Welcome to Ideate, the venture capital ecosystem
+								positioned to help you gain the right exposure
+								for your concept.
 							</div>
 
 							<div className='mt-4'>
-								<BasicButton text={"Apply Now"} />
+								<BasicButton text={"Pitch Us"} />
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-
-			{/* <div className='mb-40 flex w-full flex-col'>
-				<div className='text-chathams mx-auto text-4xl capitalize'>
-					Frequently asked questions
-				</div>
-
-				<div className='mx-auto flex w-full justify-center'>
-					<Faq />
-				</div>
-			</div> */}
 		</Layout>
 	);
 };

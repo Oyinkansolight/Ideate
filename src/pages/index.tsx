@@ -34,11 +34,9 @@ const Home = () => {
 				</div>
 
 				<div className='text-md mx-auto mt-4 text-justify text-gray-500 md:w-2/4'>
-					Our ultimate goal is to exceed the demand and expectations
-					of our clients. We offer result proven solutions for all the
-					challenges faced by startups. We’ve over 200 success stories
-					and reviews From our clients. Become a part of our success
-					story today!
+					It is our goal is to help scale up startups, ensure that
+					innovative ideas are supported, mentored, and provided with
+					the capital needed to execute across Africa.
 				</div>
 			</div>
 
@@ -53,14 +51,14 @@ const Home = () => {
 								/>
 							}
 							title='Startups'
-							description='We find the promising Startups to accelerate at  pre-revenue and post revenue stage of their business.'
+							description={`We help our Startups grow faster and achieve their business goals by providing strategy, growth hacking, design expertise, funding & networking.`}
 						/>
 					</div>
 
 					<div>
 						<Card_One
 							title='Corporates'
-							description='We have partnered with organizations globally to achieve our long-term dreams and give founders and startups all the tools they need to succeed in their venture.'
+							description='We are continuously growing startups, connecting founders, mentors, investors, and corporate partners.'
 							logo={
 								<StaticImage
 									src='../images/Vector-1.png'
@@ -73,7 +71,7 @@ const Home = () => {
 					<div>
 						<Card_One
 							title='Investors'
-							description='We attract credible angel and other institutional investors who offer more than just money to our  portfolio of entrepreneurs.'
+							description='Ideate catalyzes new businesses. Our mentors help build viable and valuable businesses. Our network of top-tier angels gives you access to more than just money.'
 							logo={
 								<StaticImage
 									src='../images/Vector-2.png'
@@ -234,13 +232,13 @@ const Home = () => {
 					<div>
 						<Card_Four
 							title={
-								"Ideate Zone Invest $100,000 to TheStage Tech-Hub"
+								"Ideate Zone Invest $100,000 to The Block Tech-Hub"
 							}
 							author={"IdeateZone"}
 							date={"December 4, 2021"}
 							image={
 								<StaticImage
-									src='../images/card_four_one.png'
+									src='../images/blockss.jpg'
 									alt={undefined}
 									className='bg-contain'
 									width={500}

@@ -12,7 +12,7 @@ const Item = ({ title, children }) => {
 				className='flex w-full items-center justify-between p-4 focus:outline-none'
 				onClick={() => setIsOpen(!isOpen)}
 			>
-				<p className='text-lg font-medium'>{title}</p>
+				<p className='text-lg font-medium text-left'>{title}</p>
 				<div className='flex h-8 w-8 items-center justify-center rounded-full border'>
 					<svg
 						viewBox='0 0 24 24'
@@ -46,18 +46,52 @@ export const Faq = () => {
 		<div className='mx-auto px-4 py-8 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-8 lg:py-10'>
 			<div className='max-w-xl sm:mx-auto lg:max-w-2xl'>
 				<div className='space-y-4'>
-					<Item title='What is minimum Investment Ticket?'>
+					<Item title='How do I apply for funding?'>
 						Updates coming...
 					</Item>
-					<Item title='Do you have a pitch day?'>
+					<Item title='How exactly does ideate come in after I have pitched my idea?'>
 						Updates coming...
 					</Item>
-					<Item title='What Sector does Ideate Support?'>
+					<Item title='Would some specific ideas get a better chance at venture capital?'>
 						Updates coming...
 					</Item>
-					<Item title='How Long is Ideates Accelerator Program?'>
+					<Item title='Can I pitch any idea?'>
 						Updates coming...
 					</Item>
+					<Item title='What documentation do I need when pitching my idea?'>
+						Updates coming...
+					</Item>
+					<Item title='If I am not the founder, can I still pitch an idea?'>
+						Updates coming...
+					</Item>
+					<Item title='How long will it take for the funds to be allocated after I have been selected?'>
+						Updates coming...
+					</Item>
+					<Item title='Can I meet the investors?'>
+						Updates coming...
+					</Item>
+					<Item title='Will I be able to meet the investors?'>
+						Updates coming...
+					</Item>
+					<Item title='Can I, in the future buy my angels out?'>
+						Updates coming...
+					</Item>
+					<Item title='How long is the application process?'>
+						Updates coming...
+					</Item>
+					<Item title='Is there a deadline to apply?'>
+						Updates coming...
+					</Item>
+					<Item title='How do I know this program will help scale up my idea?'>
+						Updates coming...
+					</Item>
+					<Item title='Is there a selection criterion?'>
+						Updates coming...
+					</Item>
+					<Item title='If my company is based outside Africa but an African, can I pitch?'>
+						Updates coming...
+					</Item>
+					
 				</div>
 			</div>
 		</div>
