@@ -27,15 +27,15 @@ const Design_Two = () => (
 
 			<div>
 				<div className='absolute -my-[18rem] flex w-full flex-col gap-y-4 text-3xl font-bold text-white md:-my-[30rem] md:text-5xl'>
-					<div className='mx-auto text-center from-chathams-50 bg-gradient-to-r via-white to-gray-50 bg-clip-text text-transparent md:w-1/2'>
+					<div className='from-chathams-50 mx-auto bg-gradient-to-r via-white to-gray-50 bg-clip-text text-center text-transparent md:w-1/2'>
 						{
-							"We’re Africa’s Leading Startup Accelerator and Venture Platform"
+							"Ideate. Innovate. Transform. Together, we can build bridges to the future, by connecting ideas and people through innovation and creativity."
 						}
 					</div>
 
-					<div className="mx-auto">
+					{/* <div className='mx-auto'>
 						<BasicButton text='Get In Touch' type='light' />
-					</div>
+					</div> */}
 				</div>
 			</div>
 		</div>
