@@ -124,13 +124,13 @@ const HomeBanner = () => (
 
 					<div className='absolute top-[30%] bottom-[50%] left-[33.33%] right-[33.33%] z-20 text-8xl font-bold text-white'>
 						<div className='my-auto flex flex-col gap-y-6'>
-							<div className='flex flex-col gap-y-2 text-center text-3xl capitalize text-white md:text-left md:text-6xl'>
+							<div className='flex flex-col gap-y-2 text-center text-3xl capitalize text-white md:text-left md:text-3xl'>
 								<div className='text-center font-bold'>
 									Accelerate your startup
 								</div>
 
 								<div className='text-center font-bold -mt-2'>
-									with Ideate.
+									with Ideate
 								</div>
 
 								<div className='text-center text-xl font-light'>
@@ -145,7 +145,7 @@ const HomeBanner = () => (
 								</Link>
 							</div>
 
-							<div className='mx-auto mt-8 hidden flex-row gap-x-36 md:flex'>
+							<div className='mx-auto hidden flex-row gap-x-36 md:flex'>
 								<div className='flex flex-col'>
 									<div className='text-center text-5xl font-bold text-white'>
 										80+
@@ -180,7 +180,7 @@ const HomeBanner = () => (
 
 					<div className='absolute top-[30%] bottom-[50%] left-[33.33%] right-[33.33%] z-20 text-8xl font-bold text-white'>
 						<div className='my-auto flex flex-col gap-y-6'>
-							<div className='flex flex-col gap-y-2 text-center text-3xl capitalize text-white md:text-left md:text-6xl'>
+							<div className='flex flex-col gap-y-2 text-center text-3xl capitalize text-white md:text-left md:text-3xl'>
 								<div className='text-center font-bold'>
 									Access To Multifunctional
 								</div>
@@ -236,7 +236,7 @@ const HomeBanner = () => (
 
 					<div className='absolute top-[30%] bottom-[50%] left-[33.33%] right-[33.33%] z-20 text-8xl font-bold text-white'>
 						<div className='my-auto flex flex-col gap-y-6'>
-							<div className='flex flex-col gap-y-2 text-center text-3xl capitalize text-white md:text-left md:text-6xl'>
+							<div className='flex flex-col gap-y-2 text-center text-3xl capitalize text-white md:text-left md:text-3xl'>
 								<div className='text-center font-bold'>
 									Providing Resource
 								</div>

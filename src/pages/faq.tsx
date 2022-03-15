@@ -7,14 +7,14 @@ const FaqPage = () => {
 		<Layout>
 			<div className='mb-40 flex w-full flex-col'>
 				<div className='py-20 dark:bg-gray-600'>
-					<h1 className='text-center text-4xl font-extrabold text-chathams dark:text-gray-50'>
+					<h1 className='text-chathams text-center text-4xl font-extrabold dark:text-gray-50'>
 						Frequently Asked Questions
 					</h1>
 
-					<div className='mx-4 mt-20 grid grid-cols-1 gap-10 md:mx-40 md:grid-cols-2'>
+					<div className='mx-4 mt-20 grid grid-cols-1 gap-10 capitalize md:mx-40 md:grid-cols-2'>
 						<div className='rounded-md bg-gray-100 p-4 text-gray-800 dark:bg-gray-700 dark:text-gray-50'>
 							<h2 className='text-md font-semibold'>
-								How do I apply for funding?
+								How do I apply for funding at Ideate?
 							</h2>
 							<p className='mt-4 text-sm font-light leading-6'>
 								Updates coming...
@@ -31,8 +31,8 @@ const FaqPage = () => {
 						</div>
 						<div className='rounded-md bg-gray-100 p-4 text-gray-800 dark:bg-gray-700 dark:text-gray-50'>
 							<h2 className='text-md font-semibold'>
-								Would some specific ideas get a better chance at
-								venture capital?
+								How long will it take for the funds to be
+								allocated after I have been selected?
 							</h2>
 							<p className='mt-4 text-sm font-light leading-6'>
 								Updates coming...
@@ -40,7 +40,8 @@ const FaqPage = () => {
 						</div>
 						<div className='rounded-md bg-gray-100 p-4 text-gray-800 dark:bg-gray-700 dark:text-gray-50'>
 							<h2 className='text-md font-semibold'>
-								Can I pitch any idea?
+								If I have got other concepts asides from
+								Blockchain can I still pitch?
 							</h2>
 							<p className='mt-4 text-sm font-light leading-6'>
 								Updates coming...
@@ -59,8 +60,9 @@ const FaqPage = () => {
 
 						<div className='rounded-md bg-gray-100 p-4 text-gray-800 dark:bg-gray-700 dark:text-gray-50'>
 							<h2 className='text-md font-semibold'>
-								If I am not the founder, can I still pitch an
-								idea?
+								I'm working on a pitch for Ideate that focuses
+								on a blockchain-based micro-loans idea. Are you
+								open to new ideas outside of that?
 							</h2>
 							<p className='mt-4 text-sm font-light leading-6'>
 								Updates coming...
@@ -88,7 +90,18 @@ const FaqPage = () => {
 
 						<div className='rounded-md bg-gray-100 p-4 text-gray-800 dark:bg-gray-700 dark:text-gray-50'>
 							<h2 className='text-md font-semibold'>
-								Will I be able to meet the investors?
+								If I am not the founder, but have a Blockchain
+								dubbed idea can I pitch it?
+							</h2>
+							<p className='mt-4 text-sm font-light leading-6'>
+								Updates coming...
+							</p>
+						</div>
+
+						<div className='rounded-md bg-gray-100 p-4 text-gray-800 dark:bg-gray-700 dark:text-gray-50'>
+							<h2 className='text-md font-semibold'>
+								How can I be certain Ideate will help scale up
+								my idea?
 							</h2>
 							<p className='mt-4 text-sm font-light leading-6'>
 								Updates coming...
@@ -106,7 +119,8 @@ const FaqPage = () => {
 
 						<div className='rounded-md bg-gray-100 p-4 text-gray-800 dark:bg-gray-700 dark:text-gray-50'>
 							<h2 className='text-md font-semibold'>
-								How long is the application process?
+								How long does the application and funding
+								process take?
 							</h2>
 							<p className='mt-4 text-sm font-light leading-6'>
 								Updates coming...
@@ -124,8 +138,8 @@ const FaqPage = () => {
 
 						<div className='rounded-md bg-gray-100 p-4 text-gray-800 dark:bg-gray-700 dark:text-gray-50'>
 							<h2 className='text-md font-semibold'>
-								How do I know this program will help scale up my
-								idea?
+								What amount in percentage will ideate be taking
+								as equity?
 							</h2>
 							<p className='mt-4 text-sm font-light leading-6'>
 								Updates coming...

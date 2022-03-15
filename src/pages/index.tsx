@@ -93,75 +93,76 @@ const Home = () => {
 			</div> */}
 
 			{/* TEAM SECTION */}
-			<div className='mt-24 flex flex-col px-20 overflow-hidden'>
-				<div className="team-pattern left-0"></div>
-				<div className='relative w-full'>
-					<div className='bg-chathams absolute col-span-1 h-20 w-px md:h-36'></div>
+			<div className='bg-chathams w-full'>
+				<div className='mt-24 flex flex-col overflow-hidden px-20'>
+					<div className='relative w-full'>
+						<div className='bg-chathams absolute col-span-1 h-20 w-px md:h-36'></div>
 
-					<div className='text-chathams text-center text-2xl font-semibold'>
-						The Ideate Zone Team
+						<div className='text-white mt-6 text-center text-2xl font-semibold'>
+							The Ideate Zone Team
+						</div>
 					</div>
-				</div>
 
-				<div className='mx-auto my-20 flex flex-wrap justify-center gap-10 md:w-2/3 z-20'>
-					<TeamCard
-						name='Patrick Oke'
-						title='Founder'
-						image={
-							<StaticImage
-								src='../images/user_1.png'
-								alt={undefined}
-							/>
-						}
-					/>
+					<div className='z-20 mx-auto my-10 flex flex-wrap justify-center gap-10 md:w-2/3'>
+						<TeamCard
+							name='Patrick Oke'
+							title='Founder'
+							image={
+								<StaticImage
+									src='../images/user_1.png'
+									alt={undefined}
+								/>
+							}
+						/>
 
-					<TeamCard
-						name='Ella Odun'
-						title='Managing Partner'
-						image={
-							<StaticImage
-								src='../images/user_2.png'
-								alt={undefined}
-							/>
-						}
-					/>
+						<TeamCard
+							name='Ella Odun'
+							title='Managing Partner'
+							image={
+								<StaticImage
+									src='../images/user_2.png'
+									alt={undefined}
+								/>
+							}
+						/>
 
-					<TeamCard
-						name='John McClean'
-						title='Investor'
-						image={
-							<StaticImage
-								src='../images/user_3.png'
-								alt={undefined}
-							/>
-						}
-					/>
+						<TeamCard
+							name='John McClean'
+							title='Investor'
+							image={
+								<StaticImage
+									src='../images/user_3.png'
+									alt={undefined}
+								/>
+							}
+						/>
 
-					<TeamCard
-						name='Jennifer Mitch'
-						title='Head Of Legal'
-						image={
-							<StaticImage
-								src='../images/user_4.png'
-								alt={undefined}
-							/>
-						}
-					/>
+						<TeamCard
+							name='Jennifer Mitch'
+							title='Head Of Legal'
+							image={
+								<StaticImage
+									src='../images/user_4.png'
+									alt={undefined}
+								/>
+							}
+						/>
 
-					<TeamCard
-						name='Milka Fred'
-						title='Chief Financial Officer'
-						image={
-							<StaticImage
-								src='../images/user_5.png'
-								alt={undefined}
-							/>
-						}
-					/>
+						<TeamCard
+							name='Milka Fred'
+							title='Chief Financial Officer'
+							image={
+								<StaticImage
+									src='../images/user_5.png'
+									alt={undefined}
+								/>
+							}
+						/>
+					</div>
 				</div>
 			</div>
 
-			<div>
+			<div className="mt-20">
 				<div className='text-chathams text-center text-3xl font-semibold'>
 					Testimonials
 				</div>
