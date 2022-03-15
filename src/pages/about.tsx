@@ -9,12 +9,85 @@ import { Carousel } from "react-responsive-carousel";
 const About = () => {
 	return (
 		<Layout>
-			<div className='flex flex-col'>
+			<div className='flex flex-col overflow-hidden'>
 				<div>
-					<Design_Two />
+					{/* <Design_Two /> */}
+					<Carousel
+						autoPlay
+						infiniteLoop
+						interval={3000}
+						showIndicators={false}
+						swipeable
+						showArrows={false}
+						showStatus={false}
+					>
+						<div className='relative'>
+							<StaticImage
+								src='../images/about_1.jpg'
+								alt='About Banner 1'
+								// width={800}
+								className='w-full'
+								height={945}
+							/>
+
+							<div className='absolute top-[40%] bottom-[50%] left-[33.33%] right-[33.33%] z-20 text-8xl font-semibold text-white'>
+								Ideate.
+							</div>
+
+							<div className='bg-chathams absolute top-0 z-10 h-full w-full opacity-60'></div>
+						</div>
+
+						<div className='relative'>
+							<StaticImage
+								src='../images/about_2.jpg'
+								alt='About Banner 2'
+								// width={800}
+								className='w-full'
+								height={1000}
+							/>
+
+							<div className='absolute top-[40%] bottom-[50%] left-[33.33%] right-[33.33%] z-20 text-8xl font-semibold text-white'>
+							Innovate.
+							</div>
+
+							<div className='bg-chathams absolute top-0 z-10 h-full w-full opacity-60'></div>
+						</div>
+
+						<div className='relative'>
+							<StaticImage
+								src='../images/about_3.jpg'
+								alt='About Banner 3'
+								// width={800}
+								className='w-full'
+								height={1000}
+							/>
+
+							<div className='absolute top-[40%] bottom-[50%] left-[33.33%] right-[33.33%] z-20 text-8xl font-semibold text-white'>
+								Transform.
+							</div>
+
+							<div className='bg-chathams absolute top-0 z-10 h-full w-full opacity-60'></div>
+						</div>
+
+						<div className='relative'>
+							<StaticImage
+								src='../images/about_4.jpg'
+								alt='About Banner 4'
+								// width={800}
+								className='w-full'
+								height={1000}
+							/>
+
+							<div className='absolute top-[40%] bottom-[50%] left-[20%] right-[20%]  z-20 text-6xl font-semibold text-white'>
+							Together, we can build bridges to the future..
+							</div>
+
+							<div className='bg-chathams absolute top-0 z-10 h-full w-full opacity-60'></div>
+						</div>
+					</Carousel>
 				</div>
 
-				<div className='w-full'>
+				<div className='w-full -mt-10'>
 					<Carousel
 						autoPlay
 						infiniteLoop

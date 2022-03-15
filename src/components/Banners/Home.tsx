@@ -7,13 +7,15 @@ import { Carousel } from "react-responsive-carousel";
 const HomeBanner = () => (
 	<div className='flex w-full flex-col justify-between gap-y-6 px-20 py-20 md:h-[500px] md:flex-row md:py-0'>
 		<div className='my-auto flex flex-col gap-y-6'>
-			<div className='text-chathams flex flex-col gap-y-2 text-center text-3xl font-semibold capitalize md:text-left md:text-3xl'>
-				<div>Think Blockchain!</div>
-				<div>Join a network of multidisciplinary</div>
+			<div className='text-chathams flex flex-col gap-y-2 text-center text-3xl capitalize md:text-left md:text-3xl'>
+				<div className='font-semibold'>Accelerate your startup</div>
 
-				<div>Founders and build your startup with</div>
+				<div className='font-semibold'>with Ideate.</div>
 
-				<div>Ideate.</div>
+				<div className='font-light text-sm'>
+					Think Blockchain! Join a network of multidisciplinary
+					Founders
+				</div>
 			</div>
 
 			<div className='mx-auto md:mx-0'>
@@ -40,13 +42,16 @@ const HomeBanner = () => (
 			</div>
 		</div>
 
-		<div className='mt-6 md:mt-0 w-[40rem] lg:mt-10'>
-			{/* <StaticImage
-				src='../../images/banner1.jpg'
-				alt='Home Banner 1'
-				width={600}
-			/> */}
-			<Carousel autoPlay infiniteLoop interval={2000} showIndicators={false} swipeable showArrows={false} showStatus={false}>
+		<div className='mt-6 w-[40rem] md:mt-0 lg:mt-10'>
+			<Carousel
+				autoPlay
+				infiniteLoop
+				interval={5000}
+				showIndicators={false}
+				swipeable
+				showArrows={false}
+				showStatus={false}
+			>
 				<div>
 					<StaticImage
 						src='../../images/ban.jpg'

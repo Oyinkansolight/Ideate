@@ -25,6 +25,9 @@ const Header = () => (
 				<div className='decoration-chathams cursor-pointer underline-offset-[1rem] hover:underline'>
 					<Link to='/about'>About Us</Link>
 				</div>
+				<div className='decoration-chathams cursor-pointer underline-offset-[1rem] hover:underline'>
+					Investors
+				</div>
 			</div>
 
 			<div className='my-auto flex flex-row gap-x-6'>

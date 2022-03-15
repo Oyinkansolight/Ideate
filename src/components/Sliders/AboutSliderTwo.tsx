@@ -13,17 +13,19 @@ const AboutSliderTwo = () => (
 
 			<div className='w-10 md:ml-44'>
 				<StaticImage
-					src='../../images/block_logo.png'
+					src='../../images/myth.svg'
 					alt={""}
 					width={50}
+					className="shadow-lg"
 				/>
 			</div>
 
 			<div className='text-justify md:ml-44 md:w-1/2'>
-				BlockDef is a blockchain solution that connects various DAapps
-				with one another. Transactions in the form of contracts are
-				carried out over 200,000 times per minute and are verified by
-				the blockchain.
+				Mythical Games is a studio creating games and online experiences
+				that feature true ownership of digital assets. The creation of a
+				secondary digital economy, based on a blockchain, helps to
+				verify scarcity, and create a clean record of ownership over
+				unique digital items.
 			</div>
 
 			<div className='text-justify md:ml-44 md:w-1/2'>
