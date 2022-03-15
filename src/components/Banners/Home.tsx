@@ -46,7 +46,7 @@ const HomeBanner = () => (
 				alt='Home Banner 1'
 				width={600}
 			/> */}
-			<Carousel autoPlay infiniteLoop interval={2000}>
+			<Carousel autoPlay infiniteLoop interval={2000} showIndicators={false} swipeable showArrows={false} showStatus={false}>
 				<div>
 					<StaticImage
 						src='../../images/ban.jpg'

@@ -15,7 +15,14 @@ const About = () => {
 				</div>
 
 				<div className='w-full'>
-					<Carousel autoPlay infiniteLoop interval={3000} showArrows>
+					<Carousel
+						autoPlay
+						infiniteLoop
+						interval={3000}
+						showArrows
+						swipeable
+						showStatus={false}
+					>
 						<div>
 							<AboutSliderOne />
 						</div>
