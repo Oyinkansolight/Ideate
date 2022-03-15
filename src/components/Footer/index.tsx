@@ -4,8 +4,8 @@ import React from "react";
 import { BasicButton } from "../Buttons";
 
 const Footer = () => (
-	<div className='bg-chathams flex h-[300px] w-full'>
-		<div className='m-auto grid grid-cols-3 gap-x-6 text-white'>
+	<div className='bg-chathams flex md:h-[300px] w-full'>
+		<div className='m-auto grid grid-rows-3 md:grid-cols-3 gap-x-6 text-white my-6 md:my-0 gap-y-6 md:mt-10'>
 			<div className='flex flex-col gap-y-4 mt-2'>
 				<div className='text-2xl font-semibold'>IdeateZone</div>
 				<div className='text-sm font-light'>THINK/CREATE/INNOVATE</div>
@@ -15,6 +15,7 @@ const Footer = () => (
 							<StaticImage
 								src='../../images/facebook.svg'
 								alt='Facebook'
+								height={20}
 							/>
 						</div>
 					</Link>
@@ -24,24 +25,27 @@ const Footer = () => (
 							<StaticImage
 								src='../../images/insta.svg'
 								alt='Instagram'
+								height={20}
 							/>
 						</div>
 					</Link>
 
-					<Link to='https://instagram.com/ideate_zone'>
+					{/* <Link to='https://instagram.com/ideate_zone'>
 						<div>
 							<StaticImage
 								src='../../images/email.svg'
-								alt='Instagram'
+								alt='Email'
+								height={20}
 							/>
 						</div>
-					</Link>
+					</Link> */}
 
 					<Link to='https://www.linkedin.com/in/ideatezone/'>
 						<div>
 							<StaticImage
 								src='../../images/linkedin.svg'
 								alt='LinkedIn'
+								height={20}
 							/>
 						</div>
 					</Link>

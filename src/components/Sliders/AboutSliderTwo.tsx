@@ -3,30 +3,43 @@ import React from "react";
 
 const AboutSliderTwo = () => (
 	<div className='grid md:h-[550px] md:grid-cols-2'>
-		<div className='flex h-full flex-col bg-green-200 p-20 gap-y-10'>
+		<div className='flex h-full w-auto flex-col gap-y-4 bg-purple-50 p-10 md:p-20'>
 			<div className='flex flex-row gap-x-6'>
 				<div className='bg-chathams my-auto h-px w-40'></div>
-				<div className="font-semibold text-2xl text-chathams">Featured</div>
+				<div className='text-chathams text-2xl font-semibold'>
+					Featured
+				</div>
 			</div>
 
-			<div className="md:ml-44">Logo</div>
-
-			<div className="md:w-1/2 text-justify md:ml-44">
-				Uli’ is a startup that promotes healthy lifestyle for women, an
-				AI powered tool for women who spit during pregnancy. Women can
-				spit into the bottle, with the help of AI, the bottle retains a
-				fresh fragrance.
+			<div className='w-10 md:ml-44'>
+				<StaticImage
+					src='../../images/block_logo.png'
+					alt={""}
+					width={50}
+				/>
 			</div>
 
-			<div className="md:w-1/2 text-justify md:ml-44">
-				Since its inception in 2018, Uli’ has raised a total of $51
-				million as a result of our strategic customer acquisition tools.
+			<div className='text-justify md:ml-44 md:w-1/2'>
+				BlockDef is a blockchain solution that connects various DAapps
+				with one another. Transactions in the form of contracts are
+				carried out over 200,000 times per minute and are verified by
+				the blockchain.
+			</div>
+
+			<div className='text-justify md:ml-44 md:w-1/2'>
+				Over a thousand applications have fully integrated into their
+				system since it's inception.
 			</div>
 		</div>
 
-		<div className='h-full bg-purple-100'>
-            <StaticImage src="../../images/bottle.png" alt="" className="" />
-        </div>
+		<div className='h-full bg-gray-100'>
+			<StaticImage
+				src='../../images/block.png'
+				alt=''
+				className='top-[33%] bottom-[33%] m-auto w-auto'
+				height={250}
+			/>
+		</div>
 	</div>
 );
 

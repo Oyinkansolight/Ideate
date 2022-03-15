@@ -9,12 +9,14 @@ interface Props {
 }
 
 const Card_Four = (props: Props) => (
-    <div className='grid grid-flow-row grid-rows-3 bg-gray-100 md:h-[320px] w-[440px] px-10 md:px-0'>
-        <div className='row-span-2 h-[200px] overflow-hidden bg-contain'>
+    <div className='grid grid-flow-row grid-rows-3 bg-gray-100 md:h-[320px] md:w-[440px]'>
+        <div className='row-span-2 md:h-[200px] overflow-hidden bg-contain'>
+            <div className='h-fit'>
             {props.image}
+            </div>
         </div>
 
-        <div className='px-4 py-2 flex flex-col gap-y-4'>
+        <div className='px-4 py-2 flex flex-col md:gap-y-4'>
             <div className='flex flex-row gap-x-4'>
                 <div className='my-auto'>
                     {props.author}

@@ -9,8 +9,8 @@ interface Props {
 const Testimonial = (props: Props) => {
 	return (
 		<div className='flex flex-col gap-y-10'>
-			<div className='static z-10 h-auto w-[300px] bg-[#DBE9F4] md:h-[250px] md:w-[400px]'>
-				<div className='my-6 md:my-12 px-10 md:px-20 text-justify '>{props.text}</div>
+			<div className='static z-10 h-auto  md:w-[14rem] bg-[#DBE9F4] lg:h-[250px] lg:w-[22rem] overflow-hidden'>
+				<div className='my-6 md:my-12 px-10 lg:px-20 text-left'>{props.text}</div>
 
 				<div className='absolute inline-block w-11 overflow-hidden'>
 					<div className=' h-16  origin-top-right rotate-45 transform bg-[#DBE9F4]'></div>

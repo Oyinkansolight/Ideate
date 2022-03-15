@@ -29,7 +29,7 @@ const Design_Two = () => (
 				<div className='absolute -my-[18rem] flex w-full flex-col gap-y-4 text-3xl font-bold text-white md:-my-[30rem] md:text-5xl'>
 					<div className='from-chathams-50 mx-auto bg-gradient-to-r via-white to-gray-50 bg-clip-text text-center text-transparent md:w-1/2'>
 						{
-							"Ideate. Innovate. Transform. Together, we can build bridges to the future, by connecting ideas and people through innovation and creativity."
+							"Ideate. Innovate. Transform. Together, we can build bridges to the future."
 						}
 					</div>
 

@@ -1,6 +1,6 @@
 module.exports = {
 	siteMetadata: {
-		siteUrl: `https://www.yourdomain.tld`,
+		siteUrl: `https://www.ide8.zone/`,
 	},
 	plugins: [
 		"gatsby-plugin-image",
@@ -17,7 +17,7 @@ module.exports = {
 		{
 			resolve: "gatsby-plugin-manifest",
 			options: {
-				icon: "src/images/icon.png",
+				icon: "src/images/logo.png",
 			},
 		},
 		"gatsby-plugin-sharp",

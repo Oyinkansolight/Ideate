@@ -9,7 +9,7 @@ interface Props {
 
 const Card_Two = (props: Props) => (
     // used to have a 500px height below for some reason but it's not needed anymore I think?
-    <div className=' flex flex-col md:flex-row px-20 md:px-80 gap-x-24'>
+    <div className=' flex flex-col md:flex-row md:px-80 gap-x-24'>
         <div className='flex flex-col mt-6'>
             <div className='font-semibold text-4xl text-chathams text-center md:text-left'>{props.title_one}</div>
             <div className='font-semibold text-4xl text-chathams text-center md:text-left'>{props.title_two}</div>

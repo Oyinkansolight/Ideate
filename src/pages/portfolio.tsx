@@ -27,14 +27,14 @@ const Portfolio = () => {
 				</div>
 
 				<div className='mx-auto w-1/3 font-light text-gray-500'>
-					We are blockchain and ICO experts, founders, and investor
-					networks. Helping startups worldwide to accelerate business
-					success in a completely new economy.
+					We are a network of blockchain experts, ICO experts,
+					founders and investors. Helping startups worldwide
+					to accelerate business success in a completely new economy.
 				</div>
 
 				<div className='mx-auto mt-6 px-20'>
-					<div className='relative h-[480px] w-[1200px] bg-gray-100 px-10'>
-						<div className='absolute left-0 z-0 mt-60 h-[150px] w-[400px] bg-gray-200'></div>
+					<div className='relative w-full bg-gray-100 px-10'>
+						<div className='absolute left-0 z-0 mt-36 h-[10rem] w-[22rem] bg-gray-200 lg:mt-60'></div>
 
 						<div className='flex flex-row gap-x-10'>
 							<div className='my-auto ml-24 flex flex-col'>
@@ -57,11 +57,11 @@ const Portfolio = () => {
 								</div>
 							</div>
 
-							<div>
+							<div className='pb-6'>
 								<StaticImage
 									src='../images/ascon.png'
 									alt={""}
-									width={1300}
+									width={1000}
 								/>
 							</div>
 						</div>
@@ -69,8 +69,8 @@ const Portfolio = () => {
 				</div>
 
 				<div className='mx-auto mt-20 px-20'>
-					<div className='relative h-[480px] w-[1200px] bg-gray-100 px-10'>
-						<div className='absolute right-0 z-0 mt-60 h-[150px] w-[400px] bg-gray-200'></div>
+					<div className='relative w-full bg-gray-100 px-10'>
+						<div className='absolute right-0 z-0 mt-36 h-[10rem] w-[22rem] bg-gray-200 lg:mt-60'></div>
 
 						<div className='flex flex-row-reverse gap-x-10'>
 							<div className='my-auto ml-24 flex flex-col'>
@@ -93,11 +93,11 @@ const Portfolio = () => {
 								</div>
 							</div>
 
-							<div>
+							<div className='pb-6'>
 								<StaticImage
 									src='../images/ascon2.png'
 									alt={""}
-									width={1300}
+									width={1000}
 								/>
 							</div>
 						</div>

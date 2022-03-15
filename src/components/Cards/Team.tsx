@@ -8,11 +8,11 @@ interface Props {
 
 const TeamCard = (props: Props) => (
 	<div className='flex flex-col'>
-		<div className='mb-6'>{props.image}</div>
+		<div className='mb-6 w-auto h-auto'>{props.image}</div>
 
-		<div className="text-chathams font-semibold">{props.name}</div>
+		<div className="text-chathams font-semibold text-center md:text-left">{props.name}</div>
 
-		<div>{props.title}</div>
+		<div className="text-center md:text-left">{props.title}</div>
 	</div>
 );
 

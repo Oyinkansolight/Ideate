@@ -3,13 +3,15 @@ import React from "react";
 
 const AboutSliderOne = () => (
 	<div className='grid md:h-[550px] md:grid-cols-2'>
-		<div className='flex h-full flex-col bg-[#DBE9F4] p-20 gap-y-10'>
+		<div className='flex h-full flex-col bg-[#DBE9F4] p-10 md:p-20 gap-y-4 w-auto'>
 			<div className='flex flex-row gap-x-6'>
 				<div className='bg-chathams my-auto h-px w-40'></div>
 				<div className="font-semibold text-2xl text-chathams">Featured</div>
 			</div>
 
-			<div className="md:ml-44">Logo</div>
+			<div className="w-10 md:ml-44">
+				<StaticImage src="../../images/uli.jpg" alt={""} width={50} />
+			</div>
 
 			<div className="md:w-1/2 text-justify md:ml-44">
 				Uli’ is a startup that promotes healthy lifestyle for women, an
@@ -25,7 +27,7 @@ const AboutSliderOne = () => (
 		</div>
 
 		<div className='h-full bg-gray-100'>
-            <StaticImage src="../../images/bottle.png" alt="" className="" />
+            <StaticImage src="../../images/bottle.png" alt="" className="w-auto" />
         </div>
 	</div>
 );

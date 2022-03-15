@@ -20,28 +20,28 @@ const Home = () => {
 				<HomeBanner />
 			</div>
 
-			<div>
+			<div className='mt-0 md:mt-10 lg:mt-0'>
 				<Design_One />
 			</div>
 
-			<div className='flex flex-row py-24 px-10 text-center md:px-20'>
-				<div className='mx-auto flex flex-row md:gap-x-6'>
+			<div className='flex flex-col py-24 px-10 text-center md:flex-row md:px-20'>
+				<div className='mx-auto flex md:flex-row md:gap-x-6'>
 					<div className='bg-chathams my-auto mr-6  -ml-20 h-px w-20 md:w-28'></div>
 
 					<div className='text-chathams my-auto text-xl font-semibold'>
-						Our Dream
+						Our Vision
 					</div>
 				</div>
 
 				<div className='text-md mx-auto mt-4 text-justify text-gray-500 md:w-2/4'>
-					It is our goal is to help scale up startups, ensure that
-					innovative ideas are supported, mentored, and provided with
-					the capital needed to execute across Africa.
+					Our goal is to support the development of blockchain
+					technology across Africa by connecting startups with
+					investors via principal and expertise.
 				</div>
 			</div>
 
-			<div className='flex w-full px-20'>
-				<div className='mx-auto grid grid-cols-1 gap-y-6 gap-x-20 md:grid-cols-3'>
+			<div className='flex w-full md:px-20'>
+				<div className='mx-auto grid grid-cols-1 content-center gap-y-6 md:grid-cols-2 md:gap-x-20 lg:grid-cols-3'>
 					<div>
 						<Card_One
 							logo={
@@ -95,14 +95,14 @@ const Home = () => {
 			{/* TEAM SECTION */}
 			<div className='mt-24 flex flex-col px-20'>
 				<div className='relative w-full'>
-					<div className='bg-chathams absolute col-span-1 h-36 w-px'></div>
+					<div className='bg-chathams absolute col-span-1 h-20 w-px md:h-36'></div>
 
 					<div className='text-chathams text-center text-2xl font-semibold'>
 						The Ideate Zone Team
 					</div>
 				</div>
 
-				<div className='mx-auto my-20 flex w-2/3 flex-wrap justify-center gap-10'>
+				<div className='mx-auto my-20 flex flex-wrap justify-center gap-10 md:w-2/3'>
 					<TeamCard
 						name='Patrick Oke'
 						title='Founder'
@@ -205,7 +205,7 @@ const Home = () => {
 					<div>
 						<Testimonial
 							text={
-								"IDEATE Zone has helped us to accelerate our bold ambitions and give us a platform to scale our business globally. Great Mentorship"
+								"IDEATE Zone has helped us to accelerate our bold ambitions and give us a platform to scale our business globally.       "
 							}
 							image={
 								<StaticImage
@@ -220,15 +220,15 @@ const Home = () => {
 				</div>
 			</div>
 
-			<div className='my-20 flex w-full flex-col px-20'>
+			<div className='my-20 mx-auto flex w-full flex-col px-10 md:px-20'>
 				<div className='flex flex-row gap-x-6'>
 					<div className='bg-chathams my-auto h-px w-[8.5rem]'></div>
-					<div className='text-chathams text-xl font-semibold'>
-						See Our Latest Posts
+					<div className='text-chathams text-md font-semibold leading-tight md:text-xl md:leading-normal'>
+						See Our Latest Posts (Coming Soon)
 					</div>
 				</div>
 
-				<div className='my-10 grid grid-cols-1 place-items-center md:grid-cols-3'>
+				{/* <div className='mx-auto my-10 grid grid-cols-1 place-items-center gap-y-10 gap-x-10 md:grid-cols-3'>
 					<div>
 						<Card_Four
 							title={
@@ -240,8 +240,8 @@ const Home = () => {
 								<StaticImage
 									src='../images/blockss.jpg'
 									alt={undefined}
-									className='bg-contain'
-									width={500}
+									// className='bg-contain'
+									// width={500}
 								/>
 							}
 						/>
@@ -274,7 +274,7 @@ const Home = () => {
 							}
 						/>
 					</div>
-				</div>
+				</div> */}
 			</div>
 		</Layout>
 	);
