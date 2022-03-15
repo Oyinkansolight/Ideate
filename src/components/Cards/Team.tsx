@@ -7,12 +7,12 @@ interface Props {
 }
 
 const TeamCard = (props: Props) => (
-	<div className='flex flex-col'>
-		<div className='mb-6 w-auto h-auto border-4 border-chathams rounded-full overflow-hidden'>{props.image}</div>
+	<div className='flex flex-col shadow-lg px-6 py-4 rounded-md bg-gray-100'>
+		<div className='mb-6 w-auto h-auto rounded-l-full overflow-hidden shadow-lg border-2 border-gray-100'>{props.image}</div>
 
-		<div className="text-chathams font-semibold text-center md:text-left">{props.name}</div>
+		<div className="text-chathams font-semibold text-center">{props.name}</div>
 
-		<div className="text-center md:text-left">{props.title}</div>
+		<div className="text-center">{props.title}</div>
 	</div>
 );
 
