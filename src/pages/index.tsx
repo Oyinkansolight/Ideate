@@ -20,7 +20,7 @@ const Home = () => {
 				<HomeBanner />
 			</div>
 
-			<div className='mt-0 md:mt-10 lg:mt-0'>
+			<div className='-mt-10'>
 				<Design_One />
 			</div>
 
@@ -93,7 +93,8 @@ const Home = () => {
 			</div> */}
 
 			{/* TEAM SECTION */}
-			<div className='mt-24 flex flex-col px-20'>
+			<div className='mt-24 flex flex-col px-20 overflow-hidden'>
+				<div className="team-pattern left-0"></div>
 				<div className='relative w-full'>
 					<div className='bg-chathams absolute col-span-1 h-20 w-px md:h-36'></div>
 
@@ -102,7 +103,7 @@ const Home = () => {
 					</div>
 				</div>
 
-				<div className='mx-auto my-20 flex flex-wrap justify-center gap-10 md:w-2/3'>
+				<div className='mx-auto my-20 flex flex-wrap justify-center gap-10 md:w-2/3 z-20'>
 					<TeamCard
 						name='Patrick Oke'
 						title='Founder'

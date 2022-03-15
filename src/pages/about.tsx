@@ -15,7 +15,7 @@ const About = () => {
 					<Carousel
 						autoPlay
 						infiniteLoop
-						interval={3000}
+						interval={2000}
 						showIndicators={false}
 						swipeable
 						showArrows={false}
