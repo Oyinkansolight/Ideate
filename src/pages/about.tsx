@@ -23,7 +23,7 @@ const About = () => {
 					>
 						<div className='relative'>
 							<StaticImage
-								src='../images/about_1.jpg'
+								src='../images/about.jpg'
 								alt='About Banner 1'
 								// width={800}
 								className='w-full'
