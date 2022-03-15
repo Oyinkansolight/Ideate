@@ -8,7 +8,7 @@ interface Props {
 
 const TeamCard = (props: Props) => (
 	<div className='flex flex-col'>
-		<div className='mb-6 w-auto h-auto'>{props.image}</div>
+		<div className='mb-6 w-auto h-auto border-4 border-chathams rounded-full overflow-hidden'>{props.image}</div>
 
 		<div className="text-chathams font-semibold text-center md:text-left">{props.name}</div>
 
