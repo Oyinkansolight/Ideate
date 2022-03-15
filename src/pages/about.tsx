@@ -31,7 +31,7 @@ const About = () => {
 							/>
 
 							<div className='absolute top-[40%] bottom-[50%] left-[33.33%] right-[33.33%] z-20 text-8xl font-semibold text-white'>
-								Ideate.
+								Ideate
 							</div>
 
 							<div className='bg-chathams absolute top-0 z-10 h-full w-full opacity-60'></div>
@@ -47,7 +47,7 @@ const About = () => {
 							/>
 
 							<div className='absolute top-[40%] bottom-[50%] left-[33.33%] right-[33.33%] z-20 text-8xl font-semibold text-white'>
-							Innovate.
+							Innovate
 							</div>
 
 							<div className='bg-chathams absolute top-0 z-10 h-full w-full opacity-60'></div>
@@ -63,7 +63,7 @@ const About = () => {
 							/>
 
 							<div className='absolute top-[40%] bottom-[50%] left-[33.33%] right-[33.33%] z-20 text-8xl font-semibold text-white'>
-								Transform.
+								Transform
 							</div>
 
 							<div className='bg-chathams absolute top-0 z-10 h-full w-full opacity-60'></div>
@@ -78,8 +78,8 @@ const About = () => {
 								height={1000}
 							/>
 
-							<div className='absolute top-[40%] bottom-[50%] left-[20%] right-[20%]  z-20 text-6xl font-semibold text-white'>
-							Together, we can build bridges to the future..
+							<div className='absolute capitalize top-[40%] bottom-[50%] left-[20%] right-[20%]  z-20 text-6xl font-semibold text-white'>
+							Together, We Can Build Bridges To The Future...
 							</div>
 
 							<div className='bg-chathams absolute top-0 z-10 h-full w-full opacity-60'></div>
