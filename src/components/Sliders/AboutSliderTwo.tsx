@@ -12,12 +12,19 @@ const AboutSliderTwo = () => (
 			</div>
 
 			<div className='w-10 md:ml-44'>
-				<StaticImage
-					src='../../images/myth.svg'
-					alt={""}
-					width={50}
-					className="shadow-lg"
-				/>
+				<div className='h-14 w-14 bg-black'>
+					<svg
+						className='w-14 p-2'
+						xmlns='http://www.w3.org/2000/svg'
+						viewBox='0 0 60 48'
+						fill='none'
+					>
+						<path
+							d='M38.1992 4.49605H26.2142V28.4635L11.9851 0H0V47.9376H59.92L38.1992 4.49605Z'
+							fill='white'
+						/>
+					</svg>
+				</div>
 			</div>
 
 			<div className='text-justify md:ml-44 md:w-1/2'>

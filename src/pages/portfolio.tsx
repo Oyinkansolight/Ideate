@@ -32,7 +32,7 @@ const Portfolio = () => {
 					in a completely new economy.
 				</div>
 
-				<div className='mx-auto mt-6 px-20 w-[70%]'>
+				<div className='mx-auto mt-6 w-[70%] px-20'>
 					<div className='relative w-full bg-gray-100 px-10 py-10'>
 						{/* <div className='absolute left-0 z-0 mt-36 h-[10rem] w-[22rem] bg-gray-200 lg:mt-60'></div> */}
 
@@ -53,7 +53,7 @@ const Portfolio = () => {
 								</div>
 							</div>
 
-							<div className='pb-6 mt-10'>
+							<div className='mt-10 pb-6'>
 								<svg
 									width='162px'
 									height='35px'
@@ -92,31 +92,49 @@ const Portfolio = () => {
 					</div>
 				</div>
 
-				<div className='mx-auto mt-10 px-20 w-[70%]'>
+				<div className='mx-auto mt-10 w-[70%] px-20'>
 					<div className='relative w-full bg-gray-100 px-10 py-10'>
 						{/* <div className='absolute right-0 z-0 mt-36 h-[10rem] w-[22rem] bg-gray-200 lg:mt-60'></div> */}
 
 						<div className='flex gap-x-10'>
 							<div className='my-auto ml-24 flex flex-col'>
 								<div className='text-left text-3xl font-semibold'>
-								Mythical Games
+									Mythical Games
 								</div>
 								{/* <div className='text-left'>
 									Digital Solution
 								</div> */}
 
 								<div className='z-10 mt-4 w-4/5 text-justify leading-6'>
-								Mythical Games is a studio creating games and online experiences that feature true ownership of digital assets. The creation of a secondary digital economy, based on a blockchain, helps to verify scarcity, and create a clean record of ownership over unique digital items.
+									Mythical Games is a studio creating games
+									and online experiences that feature true
+									ownership of digital assets. The creation of
+									a secondary digital economy, based on a
+									blockchain, helps to verify scarcity, and
+									create a clean record of ownership over
+									unique digital items.
 								</div>
 							</div>
 
-							<div className='pb-6 mt-10'>
-								<StaticImage
+							<div className='mt-10 pb-6 bg-black h-20'>
+								<svg
+									className="w-24 p-4"
+									xmlns='http://www.w3.org/2000/svg'
+									viewBox='0 0 60 48'
+									fill='none'
+								>
+									<path
+										d='M38.1992 4.49605H26.2142V28.4635L11.9851 0H0V47.9376H59.92L38.1992 4.49605Z'
+										fill='white'
+									/>
+								</svg>
+
+								{/* <StaticImage
 									src='../images/myth.svg'
 									alt={""}
 									width={300}
 									className="shadow-lg"
-								/>
+								/> */}
 							</div>
 						</div>
 					</div>
