@@ -139,7 +139,7 @@ const Home = () => {
 
 						<TeamCard
 							name='Jennifer Mitch'
-							title='Head Of Legal'
+							title='Head of Legal'
 							image={
 								<StaticImage
 									src='../images/user_4.png'
@@ -175,7 +175,7 @@ const Home = () => {
 					<div>
 						<Testimonial
 							text={
-								"Choosing IdeateZone was the best decision i made for my startup. in 1 month i was able to convert 50% active users on our platform."
+								"Choosing IdeateZone was the best decision I made for my startup. In 1 month I was able to convert 50% active users on our platform."
 							}
 							image={
 								<StaticImage
@@ -191,7 +191,7 @@ const Home = () => {
 					<div>
 						<Testimonial
 							text={
-								"Choosing IdeateZone was the best decision i made for my startup. in 1 month i was able to convert 50% active users on our platform."
+								"Pitching to IdeateZone was the beginning of something new for my company as this helped me with the required aid needed to begin the business."
 							}
 							image={
 								<StaticImage
@@ -207,7 +207,7 @@ const Home = () => {
 					<div>
 						<Testimonial
 							text={
-								"IDEATE Zone has helped us to accelerate our bold ambitions and give us a platform to scale our business globally.       "
+								"IDEATE Zone has helped us to accelerate our bold ambitions and given us a platform to scale our business globally.       "
 							}
 							image={
 								<StaticImage

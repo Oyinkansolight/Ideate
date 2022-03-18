@@ -141,7 +141,7 @@ const HomeBanner = () => (
 
 							<div className='mx-auto md:mx-0'>
 								<Link to='/pitch'>
-									<BasicButton text='Apply' type='light' />
+									<BasicButton text='Apply For Funds' type='light' />
 								</Link>
 							</div>
 
@@ -197,7 +197,7 @@ const HomeBanner = () => (
 
 							<div className='mx-auto md:mx-0'>
 								<Link to='/pitch'>
-									<BasicButton text='Apply' type='light' />
+									<BasicButton text='Apply For Funds' type='light' />
 								</Link>
 							</div>
 
@@ -254,7 +254,7 @@ const HomeBanner = () => (
 
 							<div className='mx-auto md:mx-0'>
 								<Link to='/pitch'>
-									<BasicButton text='Apply' type='light' />
+									<BasicButton text='Apply For Funds' type='light' />
 								</Link>
 							</div>
 						</div>
