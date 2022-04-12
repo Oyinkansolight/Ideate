@@ -15,8 +15,10 @@ const Portfolio = () => {
 
 	return (
 		<Layout>
-			<div className='mx-auto flex w-full px-20'>
+			<div className='mx-auto flex w-full -mt-24 relative overflow-hidden' id="portfolio_bg">
 				<PortfolioBanner />
+
+				<div className="bg-white opacity-70 absolute w-full h-full -z-10"></div>
 			</div>
 
 			<div className='relative my-16 flex w-full flex-col gap-y-6 text-center'>
@@ -492,12 +494,12 @@ const Portfolio = () => {
 				)}
 			</div> */}
 
-			<div className='my-40'>
+			<div className='' id="port-bottom">
 				<div className=' mx-auto flex w-full px-20'>
-					<div className='mx-auto flex flex-row gap-x-24'>
+					<div className='mx-auto flex flex-row gap-x-24 mt-60'>
 						<div>
 							<StaticImage
-								src='../images/ascon_bottom.png'
+								src='../images/image 17.png'
 								alt={"Card Image 3"}
 							/>
 						</div>

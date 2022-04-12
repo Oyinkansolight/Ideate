@@ -9,9 +9,21 @@ import { Carousel } from "react-responsive-carousel";
 const About = () => {
 	return (
 		<Layout>
-			<div className='flex flex-col overflow-hidden'>
+			<div className='-mt-24 w-full' id='lagos'>
+				<div className='absolute top-[35%] bottom-[50%] left-[20%] right-[20%] z-20 text-8xl font-bold text-white'>
+					<div className='my-auto flex flex-col gap-y-6'>
+						<div className='flex flex-col gap-y-2 text-center text-3xl capitalize text-white md:text-left md:text-5xl'>
+							<div className='text-center font-bold'>
+								We’re the World’s Leading Startup Accelerator
+								and Venture Studio
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			{/* <div className='flex flex-col overflow-hidden'>
 				<div>
-					{/* <Design_Two /> */}
+
 					<Carousel
 						autoPlay
 						infiniteLoop
@@ -25,7 +37,6 @@ const About = () => {
 							<StaticImage
 								src='../images/about.jpg'
 								alt='About Banner 1'
-								// width={800}
 								className='w-full'
 								height={945}
 							/>
@@ -41,7 +52,7 @@ const About = () => {
 							<StaticImage
 								src='../images/about_2.jpg'
 								alt='About Banner 2'
-								// width={800}
+
 								className='w-full'
 								height={1000}
 							/>
@@ -57,7 +68,7 @@ const About = () => {
 							<StaticImage
 								src='../images/about_3.jpg'
 								alt='About Banner 3'
-								// width={800}
+								
 								className='w-full'
 								height={1000}
 							/>
@@ -73,7 +84,7 @@ const About = () => {
 							<StaticImage
 								src='../images/about_4.jpg'
 								alt='About Banner 4'
-								// width={800}
+								
 								className='w-full'
 								height={1000}
 							/>
@@ -105,7 +116,7 @@ const About = () => {
 						</div>
 					</Carousel>
 				</div>
-			</div>
+			</div> */}
 
 			{/* <div className='mt-[28rem] flex w-full'>
 			<div className='mx-auto'>
@@ -115,21 +126,61 @@ const About = () => {
 
 			<div className='mt-6 mb-16 flex flex-row px-20'>
 				<div className='flex w-full'>
-					<div className='mx-auto flex flex-row gap-x-6'>
-						<div className='bg-chathams my-auto h-px w-20'></div>
+					<div className='flex flex-row gap-x-6'>
+						<div className='bg-chathams my-auto h-[2px] w-[151px]'></div>
 
-						<div className='text-chathams my-auto font-semibold'>
-							What We Stand For
+						<div className='text-chathams my-auto text-xl font-semibold'>
+							Featured Project
 						</div>
 					</div>
 				</div>
 
-				<div className='text-chathams mx-auto mt-4 text-justify font-light'>
+				{/* <div className='text-chathams mx-auto mt-4 text-justify font-light'>
 					We are on the side of founders. We always act in the best
 					interest of the entrepreneur and seek to be empathetic,
 					diligent and committed along the way. Most Importantly, our
 					incentives are completely aligned with the founders and our
 					co-investors.
+				</div> */}
+			</div>
+
+			<div className='relative -mt-20 h-[600px] px-20'>
+				<div className=' z-50 ml-40 -mt-16 p-20' id='featured'>
+					<div className='text-md absolute mt-32 w-1/5 text-[#262E37]'>
+						Uli’ is a startup that promotes healthy lifestyle for
+						women, an AI powered tool for women who spit during
+						pregnancy. Women can spit into the bottle, with the help
+						of AI, the bottle retains a fresh fragrance.
+						<br />
+						<br />
+						Since its inception in 2018, Uli’ has raised a total of
+						$51 million as a result of our strategic customer
+						acquisition tools.
+					</div>
+				</div>
+
+				<div
+					className=' absolute bottom-0 right-0 -z-50 mt-20 pt-10'
+					id='featured_design'
+				></div>
+			</div>
+
+			<div className='mt-6 mb-16 flex flex-row px-20'>
+				<div className='flex w-full'>
+					<div className='mx-auto flex flex-row gap-x-6'>
+						<div className='bg-chathams my-auto h-[2px] w-[151px]'></div>
+
+						<div className='text-chathams my-auto text-xl font-semibold'>
+							Why Choose Us
+						</div>
+					</div>
+				</div>
+
+				<div className='text-chathams mx-auto mt-4 text-justify font-light'>
+					IdeateZone combines real search, social and display data
+					with your prospective sales information to create an
+					accurate analytics and reliable digital marketing forecast
+					for use in sales conversion.
 				</div>
 			</div>
 
@@ -219,7 +270,7 @@ const About = () => {
 					<Card_Two
 						title_one='IdeateZone'
 						title_two='Approach'
-						description={`We believe in the power of Blockchain technologies and how it has the potential to reshape Africa's future. We are an early-stage investor interested in meeting founders who are ambitious, with grit, and developing market-fit products to unsolved problems in Africa.`}
+						description={`We understand the frustration of coming up short. That’s why we settle for nothing less than above and beyound for your business growth. our strategic tools can help optimize your digital space to get the best results.`}
 					/>
 				</div>
 			</div>

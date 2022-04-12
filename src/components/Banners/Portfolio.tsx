@@ -2,7 +2,7 @@ import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
 
 const PortfolioBanner = () => (
-	<div className='mx-auto flex h-[500px] w-full flex-row justify-between gap-x-4'>
+	<div className='mx-auto flex h-[500px] w-full flex-row justify-between gap-x-4 px-20'>
 		<div className='my-auto ml-20 flex w-2/3 flex-col gap-y-4'>
 			<div className='text-chathams w-full text-2xl'>
 				<div className='font-semibold'>
