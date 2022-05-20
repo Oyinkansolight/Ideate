@@ -7,5 +7,17 @@ import Card_Six from "./Card_Six";
 import Flip_Card from "./Flip_Card";
 import Testimonial from "./Testimonial";
 import TeamCard from "./Team";
+import StaffCard from "./Staff";
 
-export { Card_One, Card_Two, Card_Three, Card_Four, Card_Five, Card_Six, Testimonial, Flip_Card, TeamCard };
+export {
+	Card_One,
+	Card_Two,
+	Card_Three,
+	Card_Four,
+	Card_Five,
+	Card_Six,
+	Testimonial,
+	Flip_Card,
+	TeamCard,
+	StaffCard,
+};
