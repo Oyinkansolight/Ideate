@@ -8,7 +8,7 @@ export default function Home() {
 	return (
 		<Layout>
 			<div className='-mt-24 h-[650px] w-full'>
-				<div className='flex flex-row'>
+				<div className='flex flex-row justify-between'>
 					<div className='mt-40 flex w-1/2 flex-col gap-y-6 pl-10'>
 						<div className='text-left text-6xl font-semibold leading-tight'>
 							Pioneering Africa’s Blockchain <br /> Tech Solutions
@@ -27,6 +27,10 @@ export default function Home() {
 								<BasicButton text='Apply' />
 							</Link>
 						</div>
+					</div>
+
+					<div className="-mr-40 -mt-40 z-[-10]">
+						<StaticImage src="../images/ideate_home.svg" alt={""} width={850} />
 					</div>
 				</div>
 			</div>
@@ -51,7 +55,7 @@ export default function Home() {
 				className='flex h-[650px] flex-row justify-between bg-black'
 				id='oculus'
 			>
-				<div className='my-auto flex w-1/3 flex-col gap-y-4 pl-10 text-white'>
+				<div className='my-auto flex w-2/3 flex-col gap-y-4 pl-10 text-white'>
 					<div className='text-5xl font-medium'>Our Mission</div>
 					<div>
 						We will help accelerate blockchain technology adoption

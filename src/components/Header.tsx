@@ -49,7 +49,7 @@ const Header = (props: Props) => {
 						<Link to='/ideate_lab'>Ideate Lab</Link>
 					</div>
 					<div className='decoration-chathams cursor-pointer decoration-2 underline-offset-[1rem] hover:underline'>
-						Application
+						<Link to="/pitch">Application</Link>
 					</div>
 				</div>
 
