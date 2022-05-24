@@ -10,7 +10,7 @@ interface Props {
 
 export default function Layout({ children, menus, logo }: Props) {
 	return (
-		<main className='h-screen w-full'>
+		<main className='h-screen w-full overflow-x-hidden'>
 			<Header menus={menus} logo={logo} />
 			{children}
 			<Footer />

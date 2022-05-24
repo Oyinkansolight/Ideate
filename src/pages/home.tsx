@@ -7,14 +7,14 @@ import Layout from "../components/Layout";
 export default function Home() {
 	return (
 		<Layout>
-			<div className='-mt-24 h-[650px] w-full'>
-				<div className='flex flex-row justify-between'>
-					<div className='mt-40 flex w-1/2 flex-col gap-y-6 pl-10'>
-						<div className='text-left text-6xl font-semibold leading-tight'>
+			<div className='-mt-24 md:h-[1000px] w-full'>
+				<div className='flex flex-col md:flex-row justify-between'>
+					<div className='mt-40 flex md:w-1/2 flex-col gap-y-6 px-10 md:pl-10 md:pr-0'>
+						<div className='text-center md:text-left text-4xl md:text-6xl font-semibold leading-tight'>
 							Pioneering Africa’s Blockchain <br /> Tech Solutions
 						</div>
 
-						<div>
+						<div className="text-center md:text-left">
 							Lorem ipsum dolor sit amet, consectetur adipisicing
 							elit. Facere praesentium doloribus ducimus
 							reprehenderit natus ab sint quos dolorem. Non
@@ -22,24 +22,28 @@ export default function Home() {
 							Vero dolore excepturi sunt.
 						</div>
 
-						<div>
+						<div className="mx-auto md:mx-0">
 							<Link to='/pitch'>
 								<BasicButton text='Apply' />
 							</Link>
 						</div>
 					</div>
 
-					<div className="-mr-40 -mt-40 z-[-10]">
+					<div className="hidden md:block -mr-40 -mt-40 z-[-10]">
+						<StaticImage src="../images/ideate_home.svg" alt={""} width={850} />
+					</div>
+
+					<div className="mx-auto md:hidden">
 						<StaticImage src="../images/ideate_home.svg" alt={""} width={850} />
 					</div>
 				</div>
 			</div>
 
 			<div
-				className='bg-chathams flex h-[650px] justify-end'
+				className='bg-chathams flex h-[480px] md:h-[650px] justify-end'
 				id='blockbg'
 			>
-				<div className='my-auto flex w-1/3 flex-col gap-y-4 pr-10 text-center text-white'>
+				<div className='my-auto flex md:w-1/3 flex-col gap-y-4 px-10 md:pl-0 md:pr-10 text-center text-white'>
 					<div className='text-5xl font-medium'>Our Vision</div>
 					<div>
 						Lorem ipsum dolor, sit amet consectetur adipisicing
@@ -52,12 +56,12 @@ export default function Home() {
 			</div>
 
 			<div
-				className='flex h-[650px] flex-row justify-between bg-black'
+				className='flex h-[750px] md:h-[650px] flex-col overflow-hidden md:flex-row justify-between bg-black'
 				id='oculus'
 			>
-				<div className='my-auto flex w-2/3 flex-col gap-y-4 pl-10 text-white'>
-					<div className='text-5xl font-medium'>Our Mission</div>
-					<div>
+				<div className='my-auto mt-40 px-10 flex md:w-2/3 flex-col gap-y-4 pl-10 text-white'>
+					<div className='text-3xl text-center md:text-left md:text-5xl font-medium'>Our Mission</div>
+					<div className="text-center md:text-left">
 						We will help accelerate blockchain technology adoption
 						in Africa by establishing a global investing community
 						and a thriving blockchain-based talent pool by
@@ -77,8 +81,8 @@ export default function Home() {
 			</div>
 
 			<div className='flex h-[650px] flex-col gap-y-6 bg-black text-center'>
-				<div className='mx-auto flex w-1/3 flex-col gap-y-4 text-white'>
-					<div className='text-5xl font-medium'>Be A Part Of It!</div>
+				<div className='mx-auto flex p-10 md:p-0 md:w-1/3 flex-col gap-y-4 text-white'>
+					<div className='text-3xl md:text-5xl font-medium'>Be A Part Of It!</div>
 
 					<div className=''>
 						Ideate Zone exists to shape the future of marketing,
@@ -89,12 +93,12 @@ export default function Home() {
 					</div>
 				</div>
 
-				<div className='grid grid-flow-col grid-cols-3 px-20'>
+				<div className='grid grid-flow-col grid-cols-3 px-10 overflow-x-hidden md:px-20 mx-auto'>
 					<div className=''>
 						<StaticImage
 							src='../images/part1.png'
 							alt='Part 1'
-							className='w-[550px] transition delay-150 duration-500  ease-in-out hover:z-50 hover:w-[700px] hover:translate-x-10'
+							className='md:w-[550px] transition delay-150 duration-500  ease-in-out hover:z-50 md:hover:w-[700px] hover:translate-x-10'
 						/>
 					</div>
 
@@ -102,7 +106,7 @@ export default function Home() {
 						<StaticImage
 							src='../images/part2.png'
 							alt='Part 2'
-							className='w-[550px] transition delay-150 duration-500  ease-in-out hover:z-50 hover:w-[700px] hover:-translate-x-10'
+							className='md:w-[550px] transition delay-150 duration-500  ease-in-out hover:z-50 hover:md:w-[700px] hover:-translate-x-10'
 						/>
 					</div>
 
@@ -110,7 +114,7 @@ export default function Home() {
 						<StaticImage
 							src='../images/part3.png'
 							alt='Part 3'
-							className='w-[550px] transition delay-150 duration-500  ease-in-out hover:z-50 hover:w-[700px] hover:-translate-x-10'
+							className='md:w-[550px] transition delay-150 duration-500  ease-in-out hover:z-50 hover:md:w-[700px] hover:-translate-x-10'
 						/>
 					</div>
 				</div>
