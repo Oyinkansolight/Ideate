@@ -4,10 +4,10 @@ import React from "react";
 
 export default function StaffCard() {
 	return (
-		<div className='border-[0.5px] flex border-chathams-50 h-72 py-4 px-6'>
-			<div className='m-auto flex flex-row'>
-				<div className='flex flex-col'>
-					<div>
+		<div className='border-[0.5px] flex border-chathams-50 h-90 md:h-72 py-4 px-6'>
+			<div className='m-auto flex flex-col md:flex-row text-center'>
+				<div className='flex flex-col justify-center'>
+					<div className="mx-auto">
 						<StaticImage
 							src='../../images/sample_staff.png'
 							alt='staff'
@@ -15,7 +15,7 @@ export default function StaffCard() {
 						/>
 					</div>
 
-					<div>
+					<div className="">
 						<div className='my-auto flex flex-row gap-x-14'>
 							<Link
 								className='my-auto'
@@ -60,7 +60,7 @@ export default function StaffCard() {
 					</div>
 				</div>
 
-				<div className='flex flex-col text-center gap-y-4 my-auto px-6'>
+				<div className='flex flex-col text-center gap-y-4 my-auto px-6 md:w-auto'>
 					<div>
 						Lorem, ipsum dolor sit amet consectetur adipisicing
 						elit. Totam fugiat laborum dolorum autem nemo quasi,
