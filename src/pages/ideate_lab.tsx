@@ -8,36 +8,43 @@ export default function Lab() {
 		<Layout menus={'light'} logo={'light'}>
 			<div className='-mt-24 h-[670px] w-full text-white' id='lab_hero'>
 				<div className='flex flex-row'>
-					<div className='mt-64 flex w-1/2 flex-col gap-y-6 pl-10'>
-						<div className='text-left text-6xl leading-tight'>
+					<div className='mt-64 flex md:w-1/2 flex-col gap-y-6 md:pl-10 px-10'>
+						<div className='text-center md:text-left text-3xl md:text-6xl leading-tight'>
 							Supercharging Startups, <br />
 							Accelerating Brands
 						</div>
 
-						<div>
+						<div className="mx-auto md:mx-0">
 							<BasicButton text='Get In Touch' type='light' />
 						</div>
 					</div>
 				</div>
 			</div>
 
-			<div className='mt-10 flex flex-col px-10'>
+			<div className='mt-10 flex flex-col px-10 text-center md:text-left'>
 				<div className='text-3xl font-semibold'>Incubate</div>
 
-				<div className='w-1/3'>
+				<div className='md:w-1/3'>
 					Lorem ipsum dolor sit amet, consectetur adipiscing t, sed do
 					eiusmod tempor incididunt ut labore et d olore magna aliqua.
 					Ut enim ad minim veniam, quis.
 				</div>
 
-				<div className='mx-auto flex w-full flex-row px-40 py-20'>
-					<div className='ml-10 flex flex-col gap-y-16'>
+				<div className='mx-auto flex w-full flex-col md:flex-row md:px-40 py-20'>
+				<div className="md:hidden">
+						<StaticImage
+							src='../images/incubate.png'
+							alt='incubate_img'
+						/>
+					</div>
+
+					<div className='md:ml-10 flex flex-col gap-y-10 md:gap-y-16 mb-10 md:mb-0'>
 						<div className='flex flex-col gap-y-4'>
 							<div className='text-2xl font-semibold text-[#108AE7]'>
 								Ideation and Concept
 							</div>
 
-							<div className='w-2/3'>
+							<div className='md:w-2/3'>
 								Lorem ipsum dolor sit am consectetur adipiscing
 								sed do eiusmod tempor
 							</div>
@@ -48,27 +55,27 @@ export default function Lab() {
 								Product Development
 							</div>
 
-							<div className='w-2/3'>
+							<div className='md:w-2/3'>
 								Lorem ipsum dolor sit am consectetur adipiscing
 								sed do eiusmod tempor
 							</div>
 						</div>
 					</div>
 
-					<div>
+					<div className="hidden md:block">
 						<StaticImage
 							src='../images/incubate.png'
 							alt='incubate_img'
 						/>
 					</div>
 
-					<div className='ml-32 flex flex-col gap-y-16'>
+					<div className='md:ml-32 flex flex-col gap-y-10 md:gap-y-16 mb-10 md:mb-0'>
 						<div className='flex flex-col gap-y-4'>
 							<div className='text-2xl font-semibold text-[#20A3B5]'>
 								Corporate Identity
 							</div>
 
-							<div className='w-2/3'>
+							<div className='md:w-2/3'>
 								Lorem ipsum dolor sit am consectetur adipiscing
 								sed do eiusmod tempor
 							</div>
@@ -79,7 +86,7 @@ export default function Lab() {
 								Market Launch
 							</div>
 
-							<div className='w-2/3'>
+							<div className='md:w-2/3'>
 								Lorem ipsum dolor sit am consectetur adipiscing
 								sed do eiusmod tempor
 							</div>
@@ -89,16 +96,16 @@ export default function Lab() {
 			</div>
 
 			<div className='flex flex-col gap-y-10 px-10 py-24 bg-gray-100'>
-				<div className='flex flex-col gap-y-4'>
+				<div className='flex flex-col gap-y-4 text-center md:text-left'>
 					<div className='text-3xl font-semibold'>Accelerate</div>
-					<div className='w-1/3'>
+					<div className='md:w-1/3'>
 						Lorem ipsum dolor sit amet, consectetur adipiscing t,
 						sed do eiusmod tempor incididunt ut labore et d olore
 						magna aliqua. Ut enim ad minim veniam, quis
 					</div>
 				</div>
 
-				<div className='mx-auto flex flex-row gap-x-48'>
+				<div className='mx-auto flex flex-col md:flex-row gap-x-48 gap-y-10'>
 					<div className=''>
 						<StaticImage
 							src='../images/accelerate_text1.svg'
@@ -124,9 +131,9 @@ export default function Lab() {
 				</div>
 			</div>
 
-			<div className='flex h-[900px] flex-col bg-black py-20'>
-				<div className='my-auto flex w-1/3 flex-col gap-y-4 pl-10 text-white'>
-					<div className='text-5xl font-medium'>
+			<div className='flex h-[1500px] md:h-[900px] flex-col bg-black py-6 md:py-20 overflow-hidden'>
+				<div className='my-auto flex md:w-1/3 flex-col gap-y-4 px-6 md:px-0 md:pl-10 text-white text-center md:text-left'>
+					<div className='text-2xl md:text-5xl font-medium'>
 						Investors Network
 					</div>
 					<div>
@@ -136,8 +143,8 @@ export default function Lab() {
 					</div>
 				</div>
 
-				<div className='mx-auto flex flex-row gap-x-10 px-40 text-center text-white'>
-					<div className='flex flex-col gap-y-4 mt-20'>
+				<div className='mx-auto flex flex-col md:flex-row gap-x-10 gap-y-14 mt-10 md:px-40 text-center text-white'>
+					<div className='flex flex-col gap-y-4 md:mt-20'>
 						<div>
 							<StaticImage
 								src='../images/invest_1.png'
@@ -195,7 +202,7 @@ export default function Lab() {
 					</div>
 				</div>
 
-				<div className='mx-auto -mt-96'>
+				<div className='mx-auto px-10 md:px-0 md:-mt-96'>
 					<div>
 						<StaticImage src='../images/network.png' alt='' />
 					</div>

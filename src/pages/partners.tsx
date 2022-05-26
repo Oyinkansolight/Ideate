@@ -120,10 +120,10 @@ export default function Partners() {
 				</div>
 			</div>
 			
-			<div className='flex flex-col px-20 py-20'>
+			<div className='flex flex-col px-20 pt-20 pb-0'>
 				<div className="text-5xl text-center text-chathams">Investors</div>
 
-				<div className="grid grid-rows-4 md:grid-cols-4 gap-x-6 gap-y-10 my-10 h-[1000px] md:h-[300px] text-white">
+				<div className="grid grid-rows-4 md:grid-cols-4 gap-x-6 md:gap-y-0 gap-y-10 my-10 h-[1000px] md:h-[1100px] text-white">
 					<div className="mr-10 md:mr-0" id="investor"></div>
 					<div className="ml-10 md:ml-0 md:mt-20" id="investor"></div>
 					<div className="mr-10 md:mr-0" id="investor"></div>
