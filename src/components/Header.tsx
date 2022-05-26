@@ -87,7 +87,7 @@ const Header = (props: Props) => {
 							</svg>
 						</button>
 						{isMenuOpen && (
-							<div className='absolute top-0 left-0 w-full'>
+							<div className='absolute top-0 left-0 w-full z-[10000]'>
 								<div className='rounded border bg-white p-5 shadow-sm'>
 									<div className='mb-4 flex items-center justify-between'>
 										<div>
