@@ -85,11 +85,11 @@ const Footer = () => (
 							Partners
 						</Link>
 
-						<Link className='my-auto' to='/ideateLab'>
+						<Link className='my-auto' to='/ideate_lab'>
 							IdeateLab
 						</Link>
 
-						<Link className='my-auto' to='/blog'>
+						<Link className='my-auto' to='/'>
 							Blog
 						</Link>
 					</div>
