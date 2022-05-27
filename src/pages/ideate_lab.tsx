@@ -144,7 +144,7 @@ export default function Lab() {
 				</div>
 
 				<div className='mx-auto flex flex-col md:flex-row gap-x-10 gap-y-14 mt-10 md:px-40 text-center text-white'>
-					<div className='flex flex-col gap-y-4 md:mt-20'>
+					<div className='flex flex-col gap-y-4 md:mt-20 md:pt-10'>
 						<div>
 							<StaticImage
 								src='../images/invest_1.png'
@@ -163,7 +163,7 @@ export default function Lab() {
 						</div>
 					</div>
 
-					<div className='flex flex-col gap-y-4'>
+					<div className='flex flex-col gap-y-4 md:pt-10'>
 						<div>
 							<StaticImage
 								src='../images/invest_2.png'
