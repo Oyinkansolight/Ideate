@@ -6,7 +6,7 @@ import { BasicButton } from "../Buttons";
 const Footer = () => (
 	<>
 		<div className='bg-chathams flex h-[230px] w-full text-white md:h-[106px]'>
-			<div className='flex flex-row'>
+			<div className='flex flex-row w-full'>
 				<div className='my-auto flex w-full flex-col justify-between gap-y-6 px-10 md:flex-row'>
 					<div className='my-auto flex flex-row gap-x-14'>
 						<Link
