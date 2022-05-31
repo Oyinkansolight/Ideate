@@ -131,7 +131,7 @@ export default function Lab() {
 				</div>
 			</div>
 
-			<div className='flex h-[1500px] md:h-[900px] flex-col bg-black py-6 md:py-20 overflow-hidden'>
+			<div className='flex h-[1500px] md:h-[1000px] flex-col bg-black py-6 md:py-20 overflow-hidden'>
 				<div className='my-auto flex md:w-1/3 flex-col gap-y-4 px-6 md:px-0 md:pl-10 text-white text-center md:text-left'>
 					<div className='text-2xl md:text-5xl font-medium'>
 						Investors Network
@@ -143,7 +143,7 @@ export default function Lab() {
 					</div>
 				</div>
 
-				<div className='mx-auto flex flex-col md:flex-row gap-x-10 gap-y-14 mt-10 md:px-40 text-center text-white'>
+				<div className='mx-auto flex flex-col md:flex-row lg:gap-x-10 gap-y-14 mt-10 md:mt-4 mb-4 lg:mb-0 lg:px-40 text-center text-white'>
 					<div className='flex flex-col gap-y-4 md:mt-20 md:pt-10'>
 						<div>
 							<StaticImage
@@ -202,7 +202,7 @@ export default function Lab() {
 					</div>
 				</div>
 
-				<div className='mx-auto px-10 md:px-0 md:-mt-96'>
+				<div className='mx-auto px-10 lg:px-0 md:-mt-80 lg:-mt-96'>
 					<div>
 						<StaticImage src='../images/network.png' alt='' />
 					</div>
