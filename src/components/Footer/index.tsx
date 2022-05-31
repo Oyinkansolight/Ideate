@@ -5,7 +5,7 @@ import { BasicButton } from "../Buttons";
 
 const Footer = () => (
 	<>
-		<div className='bg-chathams flex h-[230px] w-full text-white md:h-[106px]'>
+		<div className='bg-chathams flex h-[380px] w-full text-white md:h-[106px]'>
 			<div className='flex flex-row w-full'>
 				<div className='my-auto flex w-full flex-col justify-between gap-y-6 px-10 md:flex-row'>
 					<div className='my-auto flex flex-row gap-x-14'>
@@ -54,19 +54,27 @@ const Footer = () => (
 					</div>
 
 					<div className='my-auto hidden gap-x-6 md:flex md:flex-row'>
-						<Link className='my-auto' to='/about'>
-							About Us
+						<Link className='my-auto' to='/'>
+							Terms of use
+						</Link>
+
+						<Link className='my-auto' to='/'>
+							Privacy Policy
+						</Link>
+
+						<Link className='my-auto' to='/'>
+							SFDR Policy
+						</Link>
+
+						<Link className='my-auto' to='/'>
+							Contact
 						</Link>
 
 						<Link className='my-auto' to='/partners'>
 							Partners
 						</Link>
 
-						<Link className='my-auto' to='/ideateLab'>
-							IdeateLab
-						</Link>
-
-						<Link className='my-auto' to='/blog'>
+						<Link className='my-auto' to='/'>
 							Blog
 						</Link>
 
@@ -77,27 +85,38 @@ const Footer = () => (
 				</div>
 
 				<div className='my-auto md:hidden gap-y-6 flex flex-col'>
-						<Link className='my-auto' to='/about'>
-							About Us
-						</Link>
+					<Link className='my-auto' to='/'>
+						Terms of use
+					</Link>
 
-						<Link className='my-auto' to='/partners'>
-							Partners
-						</Link>
+					<Link className='my-auto' to='/'>
+						Privacy Policy
+					</Link>
 
-						<Link className='my-auto' to='/ideate_lab'>
-							IdeateLab
-						</Link>
+					<Link className='my-auto' to='/'>
+						SFDR Policy
+					</Link>
 
-						<Link className='my-auto' to='/'>
-							Blog
-						</Link>
-					</div>
+					<Link className='my-auto' to='/'>
+						Contact
+					</Link>
+
+					<Link className='my-auto' to='/partners'>
+						Partners
+					</Link>
+
+					<Link className='my-auto' to='/'>
+						Blog
+					</Link>
+				</div>
 			</div>
+
+
+
 		</div>
 
-		<div className='border-chathams flex w-full flex-col md:flex-row gap-x-60 border-b-8 bg-black px-10 py-10'>
-			<div className='m-auto'>
+		<div className='border-chathams flex w-full flex-col md:flex-row gap-x-40 justify-start border-b-8 bg-black px-10 py-10'>
+			<div className='my-auto'>
 				<StaticImage
 					src='../../images/ideate.png'
 					alt='Ideate Zone'
@@ -105,16 +124,21 @@ const Footer = () => (
 				/>
 			</div>
 
-			<div className='my-auto flex flex-row overflow-hidden rounded-md py-6'>
+			<div className='my-auto flex flex-col md:flex-row overflow-hidden rounded-md py-6'>
+				<div className="text-white font-medium mr-2 my-auto text-xl">Keep up with us:</div>
+				
+				<div className='flex flex-row'>
 				<div>
 					<input
 						type='text'
-						className='rounded-l-md py-2 px-2 md:w-[600px]'
+						className='rounded-l-md p-2 lg:w-[600px] h-[55px] lg:h-auto bg-black border border-white text-white'
 					/>
 				</div>
 
-				<div className='overflow-hidden rounded-r-md'>
-					<BasicButton text='Search' />
+				<div className='bg-chathams my-auto flex p-2 text-white rounded-r-md h-[55px] lg:py-3 md:h-auto text-xs border border-chathams'>
+					{/* <BasicButton text='Sign Up For Latest Update' /> */}
+					<div className="my-auto">Sign Up For Latest Update</div>
+				</div>
 				</div>
 			</div>
 		</div>
