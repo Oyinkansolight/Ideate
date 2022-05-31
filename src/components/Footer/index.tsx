@@ -115,17 +115,17 @@ const Footer = () => (
 
 		</div>
 
-		<div className='border-chathams flex w-full flex-col md:flex-row gap-x-40 justify-start border-b-8 bg-black px-10 py-10'>
-			<div className='my-auto'>
+		<div className='border-chathams flex w-full flex-col md:flex-row gap-x-40 border-b-8 bg-black px-10 py-10'>
+			{/* <div className='my-auto'>
 				<StaticImage
 					src='../../images/ideate.png'
 					alt='Ideate Zone'
 					className=''
 				/>
-			</div>
+			</div> */}
 
-			<div className='my-auto flex flex-col md:flex-row overflow-hidden rounded-md py-6'>
-				<div className="text-white font-medium mr-2 my-auto text-xl">Keep up with us:</div>
+			<div className='my-auto flex flex-col md:flex-row overflow-hidden rounded-md py-6 mx-auto gap-y-6 text-center'>
+				<div className="text-white font-medium mr-2 my-auto text-xs">Keep up with us:</div>
 				
 				<div className='flex flex-row'>
 				<div>
