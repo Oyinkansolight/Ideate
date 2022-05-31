@@ -131,6 +131,7 @@ const Footer = () => (
 				<div>
 					<input
 						type='text'
+						placeholder="email address"
 						className='rounded-l-md p-2 lg:w-[600px] h-[55px] lg:h-auto bg-black border border-white text-white'
 					/>
 				</div>
