@@ -7,10 +7,10 @@ import Layout from "../components/Layout";
 export default function Home() {
 	return (
 		<Layout>
-			<div className='-mt-24 h-[1000px] md:h-[650px] w-full'>
+			<div className='-mt-24 h-[1000px] md:h-[650px] w-full overflow-hidden'>
 				<div className='flex flex-col md:flex-row justify-between'>
 					<div className='mt-40 flex md:w-1/2 flex-col gap-y-6 px-10 md:pl-10 md:pr-0'>
-						<div className='text-center md:text-left text-4xl md:text-6xl font-semibold leading-tight'>
+						<div className='text-center md:text-left text-4xl md:text-3xl xl:text-6xl font-semibold leading-tight'>
 							Pioneering Africa’s Blockchain <br /> Tech Solutions
 						</div>
 
