@@ -31,7 +31,7 @@ export default function Lab() {
 				</div>
 
 				<div className='mx-auto flex w-full flex-col md:flex-row md:px-40 py-20'>
-				<div className="md:hidden">
+					<div className="md:hidden">
 						<StaticImage
 							src='../images/incubate.png'
 							alt='incubate_img'
@@ -41,7 +41,7 @@ export default function Lab() {
 					<div className='md:ml-10 flex flex-col gap-y-10 md:gap-y-16 mb-10 md:mb-0'>
 						<div className='flex flex-col gap-y-4'>
 							<div className='text-2xl font-semibold text-[#108AE7]'>
-								Ideation and Concept
+								Conceptualization
 							</div>
 
 							<div className='md:w-2/3'>

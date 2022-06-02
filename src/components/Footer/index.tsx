@@ -138,7 +138,7 @@ const Footer = () => (
 
 				<div className='bg-chathams my-auto flex p-2 text-white rounded-r-md h-[55px] lg:py-3 md:h-auto text-xs border border-chathams'>
 					{/* <BasicButton text='Sign Up For Latest Update' /> */}
-					<div className="my-auto">Sign Up For Latest Update</div>
+					<div className="my-auto">Sign up for latest updates</div>
 				</div>
 				</div>
 			</div>
