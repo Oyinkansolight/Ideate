@@ -69,7 +69,7 @@ export default function StaffCard() {
 						ducimus aperiam.
 					</div>
 
-                    <div className="font-semibold text-2xl text-chathams">Patrick Inyangetoh</div>
+                    <div className="font-semibold text-2xl text-chathams">Patrick Oke</div>
 
                     <div className="text-xs font-light text-chathams-400">Founder</div>
 				</div>
